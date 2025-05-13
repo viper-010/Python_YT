@@ -82,4 +82,3 @@ This **100 Days of Code** series will help you learn Python from the beginning t
 
 ---
 
-## [Next Lesson >>](https://replit.com/@codewithharry/02-Day2-Application-of-Python#.tutorial/Tutorial.md)
