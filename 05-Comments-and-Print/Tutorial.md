@@ -203,12 +203,26 @@ Output:
 ```markup
 Rohan-TA
 ```
+---
 
-- You can use sep='' to remove any space between printed objects:
-3. sep='separator': Specify how to separate the objects, if there is more than one. Default is ' '
-4. end='end': Specify what to print at the end. Default is '\n' (line feed)
-5. file: An object with a write method. Default is sys.stdout
+### 4. flush:
+- Whether to forcibly flush the output
+- Default is False
 
-Parameters 2 to 4 are optional
+#### Example
+Useful when printing logs in real-time (like progress bars).
+```python
+import time
 
+for i in range(3):
+    print(i, end=' ', flush=True)
+    time.sleep(1)
+
+```
+
+Output (printed immediately without buffering):
+
+```markup
+0 1 2 
+```
 ---
