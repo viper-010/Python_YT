@@ -126,7 +126,7 @@ Output:
 Hello
 Name: Rohan 25
 ```
---
+---
 
 2. sep : Separator between multiple objects
    - Default is a space ' '
