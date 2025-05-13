@@ -188,12 +188,14 @@ Loading...Done
 
 **4**. **file**:
 - Where to print (default: console)
-- You can redirect the output to a file
 
 #### Example
+You can redirect the output to a file
 ```python
-print("Rohan", "TA", sep="-")
+with open("output.txt", "w") as f:
+    print("Saving to file", file=f)
 ```
+This will write "Saving to file" into output.txt instead of showing in the terminal.
 
 Output: 
 
