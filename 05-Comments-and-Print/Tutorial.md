@@ -141,7 +141,18 @@ Output:
 ```markup
 Rohan-TA
 ```
-You can use sep='' to remove any space between printed objects:
+- You can use sep='' to remove any space between printed objects:
+  
+#### Example
+```python
+print("A", "B", "C", sep="")
+```
+
+Output: 
+
+```markup
+ABC
+```
 
 
 3. sep='separator': Specify how to separate the objects, if there is more than one. Default is ' '
