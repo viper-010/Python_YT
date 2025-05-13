@@ -95,4 +95,4 @@ Output:
 {'name': 'Sakshi', 'age': 20, 'canVote': True}
 ```
 ---
-Strings are always shown with quotes when printed as part of a tuple/list/dict/set
+* Strings are always shown with quotes when printed as part of a tuple/list/dict/set
