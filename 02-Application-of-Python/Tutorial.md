@@ -1,4 +1,4 @@
-# Day 2 - My Python Success Story
+# 02 - My Python Success Story
 # Why I love python (And you will too...)
 Welcome to Day 2 of 100 days of code. Let me start with a story! 
 Back in my college, I used to learn C and C++ programming in depth, used to score good marks. I created a bunch of printing, conditionals and loop program. Now what? I wanted to benefit from the same
