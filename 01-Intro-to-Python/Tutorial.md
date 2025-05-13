@@ -9,7 +9,7 @@ This 100 days of code series will help you learn python from starting to the end
 
 ## What is Python?
 
--   Python is a dynamically typed \n
+-   Python is a dynamically typed /n
     -> You don’t need to declare variable types explicitly.
     -> Type is decided at runtime, not in advance.
 -   General purpose programming language that supports an object-oriented programming approach as well as a functional programming approach.
