@@ -33,7 +33,7 @@ This command downloads and installs the Pandas library in your current Python en
 - It comes with the Anaconda distribution, which includes Python, R, and 100+ popular data science packages.
 - It can install both Python libraries and non-Python dependencies (like system libraries).
 
-Example
+Example:
 ```
 conda install pandas
 ```
