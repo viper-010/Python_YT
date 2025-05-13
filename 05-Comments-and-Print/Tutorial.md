@@ -186,7 +186,22 @@ Loading...Done
 ```
 ---
 
+**4**. **file**:
+- Where to print (default: console)
+- You can redirect the output to a file
 
+#### Example
+```python
+print("Rohan", "TA", sep="-")
+```
+
+Output: 
+
+```markup
+Rohan-TA
+```
+
+- You can use sep='' to remove any space between printed objects:
 3. sep='separator': Specify how to separate the objects, if there is more than one. Default is ' '
 4. end='end': Specify what to print at the end. Default is '\n' (line feed)
 5. file: An object with a write method. Default is sys.stdout
