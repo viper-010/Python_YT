@@ -49,8 +49,8 @@ Example: If your code uses import pandas, then pandas is a dependency.
 - Some libraries (like pandas) have their own dependencies (e.g., NumPy, dateutil).
 
 ## Analogy:
--Your code = Recipe 🍲
--Dependencies = Ingredients 🥕🍅
--pip/conda = Grocery delivery service 🛒
+- Your code = Recipe 🍲
+- Dependencies = Ingredients 🥕🍅
+- pip/conda = Grocery delivery service 🛒
 
 ---
