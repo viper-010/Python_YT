@@ -81,7 +81,7 @@ Output:
 ## 5. Mapped data: dict
     
 
-## dict:
+### Dict:
 A dictionary is an unordered collection of data containing a key:value pair. The key:value pairs are enclosed within curly brackets.
 
 **Example:**
