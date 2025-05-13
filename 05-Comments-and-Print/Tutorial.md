@@ -160,7 +160,7 @@ ABC
 
 **3**. **end**:
 - What to print at the end of the line
-- Default is newline (\n)
+- Default is newline ( \n )
 
 #### Example 1
 ```python
