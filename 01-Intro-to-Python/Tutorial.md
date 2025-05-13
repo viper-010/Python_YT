@@ -1,4 +1,4 @@
-# Day 1 - What is Programming and Python?
+# 01 - What is Programming and Python?
 
 ## What is Programming
 
