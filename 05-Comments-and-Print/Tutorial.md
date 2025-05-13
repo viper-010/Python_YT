@@ -1,6 +1,6 @@
-# Day 5 - Comments, Escape sequence & Print in Python
+# 05 - Comments, Escape sequence & Print in Python
 
-Welcome to Day 5 of 100DaysOfCode. Today we will talk about Comments, Escape Sequences and little bit more about print statement in Python.
+Welcome to 05 of 100DaysOfCode. Today we will talk about Comments, Escape Sequences and little bit more about print statement in Python.
 We will also throw some light on Escape Sequences
 
 # Python Comments
@@ -119,4 +119,4 @@ print(object(s), sep=separator, end=end, file=file, flush=flush)
 
 Parameters 2 to 4 are optional
 
-## [Next Lesson>>](https://replit.com/@codewithharry/06-Day6-Variables-and-Data-Types)
+---
