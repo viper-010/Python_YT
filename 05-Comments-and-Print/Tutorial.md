@@ -113,7 +113,8 @@ print(object(s), sep=separator, end=end, file=file, flush=flush)
 ## Other Parameters of Print Statement 
 1. object(s): What you want to print
    - You can print one or multiple objects (strings, numbers, variables, etc.).
-**Example:**
+   - 
+- **Example:**
 ```python
 print("Hello")
 print("Name:", "Rohan", 25)
