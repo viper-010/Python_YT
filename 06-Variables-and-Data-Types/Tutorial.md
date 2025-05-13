@@ -1,4 +1,3 @@
-
 # 06 - Variables and Data Types
 ## What is a variable?
 Variable is like a container that holds data. Very similar to how our containers in kitchen holds sugar, salt etc
@@ -95,3 +94,5 @@ Output:
 ```python
 {'name': 'Sakshi', 'age': 20, 'canVote': True}
 ```
+---
+Strings are always shown with quotes when printed as part of a tuple/list/dict/set
