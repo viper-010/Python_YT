@@ -84,7 +84,7 @@ else:
     print("p is not greater than 5.")
 ```
 
-Output
+Output:
 
 ```markup
 p is greater than 5.
