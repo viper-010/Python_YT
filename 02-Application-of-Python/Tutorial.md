@@ -7,9 +7,13 @@ I then got into web scraping and trust me I made some good easy money on Fiverr 
 
 I then learnt flask and got to work with Flask with a university professor abroad. Long story short, Python made a huge impact in my career.
 
+---
+
 ## What can Python do for you?
 
 I want to show you some python programs I created which will surely inspire you to create your own versions of the same as we progress through this tutorial. 
-Do not try to recreate them just yet if you are a beginner and just started working on Python. We will make progress gradually trust me
+Do not try to recreate them just yet if you are a beginner and just started working on Python. We will make progress gradually trust me...
+
+---
 
 
