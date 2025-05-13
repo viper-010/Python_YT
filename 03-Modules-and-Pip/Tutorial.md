@@ -54,3 +54,16 @@ Example: If your code uses import pandas, then pandas is a dependency.
 - pip/conda = Grocery delivery service 🛒
 
 ---
+
+## What is an Environment Manager?
+- An environment manager helps you:
+- Create isolated environments for each project.
+- Use different versions of packages across projects.
+- Prevent dependency conflicts.
+
+# Common Tools:
+- venv (built-in in Python 3.3+)
+- virtualenv (more features)
+- conda (widely used in data science)
+
+---
