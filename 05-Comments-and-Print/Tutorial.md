@@ -156,6 +156,35 @@ Output:
 ```markup
 ABC
 ```
+---
+
+**3**. **end**:
+- What to print at the end of the line
+- Default is newline (\n)
+
+#### Example 1
+```python
+print("Hello", end=" ")
+print("World!")
+```
+
+Output: 
+
+```markup
+Hello World!
+```
+#### Example 2
+```python
+print("Loading", end="...")
+print("Done")
+```
+
+Output: 
+
+```markup
+Loading...Done
+```
+---
 
 
 3. sep='separator': Specify how to separate the objects, if there is more than one. Default is ' '
