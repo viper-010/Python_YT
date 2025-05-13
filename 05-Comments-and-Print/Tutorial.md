@@ -125,7 +125,23 @@ Output:
 ```markup
 Hello
 Name: Rohan 25
-``` 
+```
+
+1. sep : Separator between multiple objects
+   - Default is a space ' '
+
+#### Example
+```python
+print("Rohan", "TA", sep="-")
+```
+
+Output: 
+
+```markup
+Rohan-TA
+```
+You can use sep='' to remove any space between printed objects:
+
 
 3. sep='separator': Specify how to separate the objects, if there is more than one. Default is ' '
 4. end='end': Specify what to print at the end. Default is '\n' (line feed)
