@@ -32,3 +32,9 @@ This command downloads and installs the Pandas library in your current Python en
 - conda is a powerful package manager and environment manager, used mostly in data science.
 - It comes with the Anaconda distribution, which includes Python, R, and 100+ popular data science packages.
 - It can install both Python libraries and non-Python dependencies (like system libraries).
+
+Example
+```
+conda install pandas
+```
+This also installs Pandas but manages dependencies better, especially for data science and machine learning.
