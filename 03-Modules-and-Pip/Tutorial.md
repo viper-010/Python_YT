@@ -24,3 +24,11 @@ A **module** is like a code library that allows you to borrow code written by so
 pip install pandas
 ```
 This command downloads and installs the Pandas library in your current Python environment.
+
+---
+
+## What is conda?
+
+- conda is a powerful package manager and environment manager, used mostly in data science.
+- It comes with the Anaconda distribution, which includes Python, R, and 100+ popular data science packages.
+- It can install both Python libraries and non-Python dependencies (like system libraries).
