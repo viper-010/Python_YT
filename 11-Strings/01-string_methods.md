@@ -5,7 +5,7 @@ In python, anything that you enclose between single or double quotation marks is
 name = "Harry"
 print("Hello, " + name)
 ```
-#### Output
+#### Output:
 Hello, Harry
 
 Note: It does not matter whether you enclose your strings in single or double quotes, the output remains the same. 
