@@ -8,6 +8,7 @@ Python supports a wide variety of functions or methods like: int(), float(), str
 
 1. Explicit Conversion (Explicit type casting in python)
 2. Implicit Conversion (Implicit type casting in python).
+---
 ### Explicit typecasting:
 The conversion of one data type into another data type, done via developer or programmer's intervention or manually as per the requirement, is known as explicit type conversion. 
 
