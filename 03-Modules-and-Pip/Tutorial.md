@@ -72,13 +72,12 @@ Example: If your code uses import pandas, then pandas is a dependency.
 We use the import syntax to import a module in Python. Here is an example code:
 
 python
-Copy
-Edit
+```
 import pandas
-
 # Read and work with a file named 'words.csv'
 df = pandas.read_csv('words.csv')
 print(df)  # This will display first few rows from the words.csv file
+```
 
 Similarly, we can install other modules and look into their documentation for usage instructions.
 We will find ourselves doing this often in the later part of this course.
