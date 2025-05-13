@@ -20,7 +20,7 @@ A **module** is like a code library that allows you to borrow code written by so
 
 🔧 Install a module using `pip`:
 
-```bash
+```
 pip install pandas
-bash ```
+```
 This command downloads and installs the Pandas library in your current Python environment.
