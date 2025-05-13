@@ -1,5 +1,5 @@
 # 02 - My Python Success Story
-# Why I love python (And you will too...)
+## Why I love python (And you will too...)
 Welcome to Day 2 of 100 days of code. Let me start with a story! 
 Back in my college, I used to learn C and C++ programming in depth, used to score good marks. I created a bunch of printing, conditionals and loop program. Now what? I wanted to benefit from the same
 In my second year of college, I started working (I mean actually working in the industry) with the python programming language. I was not so good with it but I used to write code for a singaporean client and actually make good money without having to actually master Python. Harry then got curious and started working on his Python skills even more.
