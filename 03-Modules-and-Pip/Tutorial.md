@@ -61,7 +61,7 @@ Example: If your code uses import pandas, then pandas is a dependency.
 - Use different versions of packages across projects.
 - Prevent dependency conflicts.
 
-# Common Tools:
+### Common Tools:
 - venv (built-in in Python 3.3+)
 - virtualenv (more features)
 - conda (widely used in data science)
