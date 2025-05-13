@@ -2,9 +2,11 @@
 
 Welcome to 05 of 100DaysOfCode. Today we will talk about Comments, Escape Sequences and little bit more about print statement in Python.
 We will also throw some light on Escape Sequences
+---
 
 ## Python Comments
 A comment is a part of the coding file that the programmer does not want to execute, rather the programmer uses it to either explain a block of code or to avoid the execution of a specific part of code while testing.
+---
 
 ### Single-Line Comments:
 
@@ -46,7 +48,9 @@ Output:
 
 ```markup
 Python Program
-``` 
+```
+---
+
 ### Multi-Line Comments:
 
 To write multi-line comments you can use ‘#’ at each line or you can use the multiline string.
@@ -63,13 +67,11 @@ else:
     print("p is not greater than 5.")
 ```
 
-
 Output:
 
 ```markup
 p is greater than 5.
 ```
-
 
 **Example 2:** The use of multiline string.
 
@@ -89,19 +91,20 @@ Output:
 ```markup
 p is greater than 5.
 ```
+---
 
 ## Escape Sequence Characters
 
-To insert characters that cannot be directly used in a string, we use an escape sequence character.
+- To insert characters that cannot be directly used in a string, we use an escape sequence character.
+- An escape sequence character is a backslash  `\`  followed by the character you want to insert.
 
-An escape sequence character is a backslash  `\`  followed by the character you want to insert.
-
-An example of a character that cannot be directly used in a string is a double quote inside a string that is surrounded by double quotes:
+- An example of a character that cannot be directly used in a string is a double quote inside a string that is surrounded by double quotes:
 
 ```python
 print("This doesnt "execute")
 print("This will \" execute")
 ```
+--- 
 
 ## More on Print statement
 The syntax of a print statement looks something like this:
@@ -205,7 +208,7 @@ Rohan-TA
 ```
 ---
 
-### 4. flush:
+### 5. flush:
 - Whether to forcibly flush the output
 - Default is False
 
@@ -217,7 +220,6 @@ import time
 for i in range(3):
     print(i, end=' ', flush=True)
     time.sleep(1)
-
 ```
 
 Output (printed immediately without buffering):
