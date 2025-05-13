@@ -111,7 +111,7 @@ print(object(s), sep=separator, end=end, file=file, flush=flush)
 ```
 
 ## Other Parameters of Print Statement 
-1. **object(s)**:
+**1**. **object(s)**:
 - What you want to print
 - You can print one or multiple objects (strings, numbers, variables, etc.)
 
@@ -129,7 +129,7 @@ Name: Rohan 25
 ```
 ---
 
-2. **sep**:
+**2**. **sep**:
 - Separator between multiple objects
 - Default is a space ' '
 
@@ -143,7 +143,9 @@ Output:
 ```markup
 Rohan-TA
 ```
-- You can use sep='' to remove any space between printed objects:
+
+-You can use sep='' to remove any space between printed objects:
+
   
 #### Example
 ```python
