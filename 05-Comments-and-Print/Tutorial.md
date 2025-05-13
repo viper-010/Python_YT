@@ -143,10 +143,9 @@ Output:
 ```markup
 Rohan-TA
 ```
---
+
 - You can use sep='' to remove any space between printed objects:
---
-  
+
 #### Example
 ```python
 print("A", "B", "C", sep="")
