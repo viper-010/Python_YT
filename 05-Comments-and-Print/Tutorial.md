@@ -109,117 +109,14 @@ The syntax of a print statement looks something like this:
 
 ```python
 print(object(s), sep=separator, end=end, file=file, flush=flush)
-
-1. object(s) — What you want to print
-You can print one or multiple objects (strings, numbers, variables, etc.).
-
-python
-Copy
-Edit
-print("Hello")
-print("Name:", "Rohan", 25)
-Output:
-
-makefile
-Copy
-Edit
-Hello
-Name: Rohan 25
-2. sep — Separator between multiple objects
-(Default is a space ' ')
-
-python
-Copy
-Edit
-print("Rohan", "TA", sep="-")
-Output:
-
-Copy
-Edit
-Rohan-TA
-You can use sep='' to remove any space between printed objects:
-
-python
-Copy
-Edit
-print("A", "B", "C", sep="")
-Output:
-
-nginx
-Copy
-Edit
-ABC
-3. end — What to print at the end of the line
-(Default is newline \n)
-
-python
-Copy
-Edit
-print("Hello", end=" ")
-print("World!")
-Output:
-
-nginx
-Copy
-Edit
-Hello World!
-Or:
-
-python
-Copy
-Edit
-print("Loading", end="...")
-print("Done")
-Output:
-
-Copy
-Edit
-Loading...Done
-4. file — Where to print (default: console)
-You can redirect the output to a file:
-
-python
-Copy
-Edit
-with open("output.txt", "w") as f:
-    print("Saving to file", file=f)
-✔️ This will write "Saving to file" into output.txt instead of showing in the terminal.
-
-5. flush — Whether to forcibly flush the output
-(Default is False)
-
-Useful when printing logs in real-time (like progress bars).
-
-python
-Copy
-Edit
-import time
-
-for i in range(3):
-    print(i, end=' ', flush=True)
-    time.sleep(1)
-Output (printed immediately without buffering):
-
-Copy
-Edit
-0 1 2 
-
-✅ Summary Table:
-Parameter	Use
-object(s)	Things to print
-sep	Separator between multiple objects
-end	What to put at the end of the line
-file	Where to send output
-flush	Whether to force print immediately
+```
 
 ## Other Parameters of Print Statement 
 1. object(s): Any object, and as many as you like. Will be converted to string before printed
 2. sep='separator': Specify how to separate the objects, if there is more than one. Default is ' '
 3. end='end': Specify what to print at the end. Default is '\n' (line feed)
 4. file: An object with a write method. Default is sys.stdout
-5. flush:A boolean value. If True, it forces the stream to be flushed immediately, which is useful in buffering scenarios. The default value is False.
 
-
-
+Parameters 2 to 4 are optional
 
 ## [Next Lesson>>](https://replit.com/@codewithharry/06-Day6-Variables-and-Data-Types)
