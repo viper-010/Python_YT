@@ -112,13 +112,20 @@ print(object(s), sep=separator, end=end, file=file, flush=flush)
 
 ## Other Parameters of Print Statement 
 1. object(s): What you want to print
-   - You can print one or multiple objects(strings, numbers, variables, etc.)
+   - You can print one or multiple objects (strings, numbers, variables, etc.)
 
 #### Example:
 ```python
 print("Hello")
 print("Name:", "Rohan", 25)
 ```
+
+Output: 
+
+```markup
+Hello
+Name: Rohan 25
+``` 
 
 3. sep='separator': Specify how to separate the objects, if there is more than one. Default is ' '
 4. end='end': Specify what to print at the end. Default is '\n' (line feed)
