@@ -111,10 +111,12 @@ print(object(s), sep=separator, end=end, file=file, flush=flush)
 ```
 
 ## Other Parameters of Print Statement 
-1. object(s): Any object, and as many as you like. Will be converted to string before printed
-2. sep='separator': Specify how to separate the objects, if there is more than one. Default is ' '
-3. end='end': Specify what to print at the end. Default is '\n' (line feed)
-4. file: An object with a write method. Default is sys.stdout
+1. object(s): What you want to print
+   - You can print one or multiple objects (strings, numbers, variables, etc.).
+Any object, and as many as you like. Will be converted to string before printed
+3. sep='separator': Specify how to separate the objects, if there is more than one. Default is ' '
+4. end='end': Specify what to print at the end. Default is '\n' (line feed)
+5. file: An object with a write method. Default is sys.stdout
 
 Parameters 2 to 4 are optional
 
