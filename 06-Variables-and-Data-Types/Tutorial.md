@@ -29,7 +29,7 @@ By default, python provides the following built-in data types:
  -    float: 7.349, -9.0, 0.0000001
  -  complex: 6 + 2i 
 
- ## 2. Text data: str
+## 2. Text data: str
     
 
 str: "Hello World!!!", "Python Programming"
