@@ -8,7 +8,7 @@ We will also throw some light on Escape Sequences
 A comment is a part of the coding file that the programmer does not want to execute, rather the programmer uses it to either explain a block of code or to avoid the execution of a specific part of code while testing.
 
 
-### Single-Line Comments:
+## Single-Line Comments:
 
 To write a comment just add a ‘#’ at the start of the line.
 
@@ -51,7 +51,7 @@ Python Program
 ```
 ---
 
-### Multi-Line Comments:
+## Multi-Line Comments:
 
 To write multi-line comments you can use ‘#’ at each line or you can use the multiline string.
 
@@ -117,7 +117,9 @@ print(object(s), sep=separator, end=end, file=file, flush=flush)
 
 ### 1. object(s):
 - What you want to print
+- Things to print
 - You can print one or multiple objects (strings, numbers, variables, etc.)
+- Any object, and as many as you like. Will be converted to string before printed
 
 #### Example
 ```python
@@ -136,6 +138,7 @@ Name: Rohan 25
 ### 2. sep:
 - Separator between multiple objects
 - Default is a space ' '
+- Specify how to separate the objects, if there is more than one. Default is ' '
 
 #### Example 1
 ```python
@@ -164,7 +167,7 @@ ABC
 
 ### 3. end:
 - What to print at the end of the line
-- Default is newline ( \n )
+- Default is newline '\n' (line feed)
 
 #### Example 1
 ```python
@@ -192,6 +195,8 @@ Loading...Done
 
 ### 4. file:
 - Where to print (default: console)
+- Where to send output
+- An object with a write method. Default is sys.stdout
 
 #### Example
 You can redirect the output to a file
@@ -210,7 +215,9 @@ Rohan-TA
 
 ### 5. flush:
 - Whether to forcibly flush the output
+- A boolean value. If True, it forces the stream to be flushed immediately, which is useful in buffering scenarios.
 - Default is False
+
 
 #### Example
 Useful when printing logs in real-time (like progress bars).
