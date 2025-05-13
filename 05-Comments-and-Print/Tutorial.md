@@ -115,7 +115,7 @@ print(object(s), sep=separator, end=end, file=file, flush=flush)
 - What you want to print
 - You can print one or multiple objects (strings, numbers, variables, etc.)
 
-#### Example:
+#### Example
 ```python
 print("Hello")
 print("Name:", "Rohan", 25)
@@ -130,8 +130,8 @@ Name: Rohan 25
 ---
 
 2. **sep**:
-   - Separator between multiple objects
-   - Default is a space ' '
+- Separator between multiple objects
+- Default is a space ' '
 
 #### Example
 ```python
