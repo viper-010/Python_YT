@@ -22,3 +22,5 @@ A **module** is like a code library that allows you to borrow code written by so
 
 ```bash
 pip install pandas
+
+This command downloads and installs the Pandas library in your current Python environment.
