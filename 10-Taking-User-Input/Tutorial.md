@@ -12,12 +12,12 @@ variable=float(input())
 ```
 
 We can also display a text using input function. This will make input() function take user input and display a message as well
-## Example:
+### Example:
 ```python
 a=input("Enter the name: ")
 print(a)
 ```
-### Output:
+#### Output:
 ```
 Enter the name: Harry
 Harry
