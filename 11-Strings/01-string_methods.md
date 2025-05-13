@@ -1,11 +1,11 @@
 # What are strings?
 In python, anything that you enclose between single or double quotation marks is considered a string. A string is essentially a sequence or array of textual data. Strings are used when working with Unicode characters. 
-## Example
+### Example
 ```python
 name = "Harry"
 print("Hello, " + name)
 ```
-## Output
+#### Output
 Hello, Harry
 
 Note: It does not matter whether you enclose your strings in single or double quotes, the output remains the same. 
@@ -18,6 +18,7 @@ We will definitely use single quotes for our convenience
 ```python
 print('He said, "I want to eat an apple".')
 ```
+---
 
 ## Multiline Strings
 If our string has multiple lines, we can create them like this: 
@@ -28,6 +29,7 @@ sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
 print(a)
 ```
+---
 
 ## Accessing Characters of a String
 In Python, string is like an array of characters. We can access parts of string by using its index which starts from 0.\
@@ -38,6 +40,7 @@ print(name[0])
 print(name[1])
 
 ```
+---
 
 ## Looping through the string
 We can loop through strings using a for loop like this: 
@@ -47,3 +50,6 @@ for character in name:
 ```
 
 Above code prints all the characters in the string name one by one!
+
+---
+* So it's printing each character individually, with each print() call putting it on a new line.
