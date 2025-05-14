@@ -18,6 +18,7 @@ ABCDEFGHIJ
 
 ## lower()
 The lower() method converts a string to lower case.
+
 ### Example
 ```python
 str1 = "AbcDEfghIJ"
@@ -31,6 +32,7 @@ abcdefghij
 
 ## strip() 
 The strip() method removes any white spaces before and after the string.
+
 ### Example
 ```python
 str2 = " Silver Spoon "
@@ -44,6 +46,7 @@ Silver Spoon
 
 ## rstrip() 
 the rstrip() removes any trailing characters.
+
 ### Example
 ```python
 str3 = "Hello !!!"
@@ -57,6 +60,7 @@ Hello
 
 ## replace() 
 The replace() method replaces all occurences of a string with another string.
+
 ### Example
 ```python
 str2 = "Silver Spoon"
@@ -68,8 +72,9 @@ Silver Moon
  ```
 ---
 
-## split() :
+## split() 
 The split() method splits the given string at the specified instance and returns the separated strings as list items.
+
 ### Example
 ```python
 str2 = "Silver Spoon"
@@ -80,10 +85,11 @@ print(str2.split(" "))      #Splits the string at the whitespace " ".
 ['Silver', 'Spoon']
 There are various other string methods that we can use to modify our strings.
 ```
- 
+---
 
-## capitalize() : 
+## capitalize() 
 The capitalize() method turns only the first character of the string to uppercase and the rest other characters of the string are turned to lowercase. The string has no effect if the first character is already uppercase.
+
 ### Example
 ```python
 str1 = "hello"
@@ -98,10 +104,12 @@ print(capStr2)
 Hello
 Hello world
 ```
+---
 
-## center() : 
+## center() 
 The center() method aligns the string to the center as per the parameters given by the user.
-### Example
+
+### Example 1
 ```python
 str1 = "Welcome to the Console!!!"
 print(str1.center(50))
@@ -113,7 +121,7 @@ print(str1.center(50))
 
 We can also provide padding character. It will fill the rest of the fill characters provided by the user.
 
-### Example
+### Example 2
 ```python
 str1 = "Welcome to the Console!!!"
 print(str1.center(50, "."))
@@ -122,8 +130,9 @@ print(str1.center(50, "."))
 ```
 ............Welcome to the Console!!!.............
  ```
+---
 
-## count() :
+## count() 
 The count() method returns the number of times the given value has occurred within the given string.
 ### Example
 ```python
@@ -135,10 +144,11 @@ print(countStr)
 ```
 4
 ```
+---
  
-
-## endswith() : 
+## endswith() 
 The endswith() method checks if the string ends with a given value. If yes then return True, else return False. 
+
 ### Example 1 
 ```python
 str1 = "Welcome to the Console !!!"
@@ -159,9 +169,11 @@ print(str1.endswith("to", 4, 10))
 ```
 True
  ```
+---
 
-## find() : 
+## find() 
 The find() method searches for the first occurrence of the given value and returns the index where it is present. If given value is absent from the string then return -1.
+
 ### Example 1
 ```python
 str1 = "He's name is Dan. He is an honest man."
@@ -183,10 +195,12 @@ print(str1.find("Daniel"))
 ```
 -1
  ```
+---
 
-## index() :
+## index() 
 The index() method searches for the first occurrence of the given value and returns the index where it is present. If given value is absent from the string then raise an exception.
-### Example
+
+### Example 1
 ```python
 str1 = "He's name is Dan. Dan is an honest man."
 print(str1.index("Dan"))
@@ -207,9 +221,11 @@ print(str1.index("Daniel"))
 ```
 ValueError: substring not found
  ```
+---
 
-## isalnum() :
+## isalnum() 
 The isalnum() method returns True only if the entire string only consists of A-Z, a-z, 0-9. If any other characters or punctuations are present, then it returns False.
+
 ### Example 1
 ```python
 str1 = "WelcomeToTheConsole"
@@ -219,8 +235,11 @@ print(str1.isalnum())
 ```
 True
  ```
-## isalpha() :
+---
+
+## isalpha() 
 The isalnum() method returns True only if the entire string only consists of A-Z, a-z. If any other characters or punctuations or numbers(0-9) are present, then it returns False.
+
 ### Example :
 ```python
 str1 = "Welcome"
@@ -230,9 +249,11 @@ print(str1.isalpha())
 ```
 True
  ```
+---
 
-## islower() :
+## islower() 
 The islower() method returns True if all the characters in the string are lower case, else it returns False. 
+
 ### Example
 ```python
 str1 = "hello world"
@@ -242,9 +263,11 @@ print(str1.islower())
 ```
 True
  ```
+---
 
-## isprintable() :
+## isprintable() 
 The isprintable() method returns True if all the values within the given string are printable, if not, then return False.
+
 ### Example 
 ```python
 str1 = "We wish you a Merry Christmas"
@@ -254,8 +277,11 @@ print(str1.isprintable())
 ```
 True
  ```
-## isspace() :
+---
+
+## isspace() 
 The isspace() method returns True only and only if the string contains white spaces, else returns False.
+
 ### Example
 ```python
 str1 = "        "       #using Spacebar
@@ -268,9 +294,11 @@ print(str2.isspace())
 True
 True
  ```
+---
 
-## istitle() : 
+## istitle() 
 The istitile() returns True only if the first letter of each word of the string is capitalized, else it returns False.
+
 ### Example 1
 ```python
 str1 = "World Health Organization" 
@@ -290,9 +318,11 @@ print(str2.istitle())
 ```
 False
  ```
+---
 
-## isupper() :
+## isupper() 
 The isupper() method returns True if all the characters in the string are upper case, else it returns False. 
+
 ### Example 
 ```python
 str1 = "WORLD HEALTH ORGANIZATION" 
@@ -302,10 +332,11 @@ print(str1.isupper())
 ```
 True
  ```
+---
   
-
-## startswith() :
+## startswith() 
 The endswith() method checks if the string starts with a given value. If yes then return True, else return False. 
+
 ### Example 
 ```python
 str1 = "Python is a Interpreted Language" 
@@ -315,9 +346,11 @@ print(str1.startswith("Python"))
 ```
 True
  ```
+---
 
-## swapcase() : 
+## swapcase() 
 The swapcase() method changes the character casing of the string. Upper case are converted to lower case and lower case to upper case.
+
 ### Example
 ```python
 str1 = "Python is a Interpreted Language" 
@@ -327,9 +360,11 @@ print(str1.swapcase())
 ```
 pYTHON IS A iNTERPRETED lANGUAGE
  ```
+---
 
-## title() :
+## title() 
 The title() method capitalizes each letter of the word within the string.
+
 ### Example
 ```python
 str1 = "He's name is Dan. Dan is an honest man."
