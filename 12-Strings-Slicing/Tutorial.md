@@ -10,6 +10,9 @@ print("Mango is a", len1, "letter word.")
 ```
 #### Output:
 Mango is a 5 letter word.
+
+---
+
 ## String as an array
 A string is essentially a sequence of characters also called an array. Thus we can access the elements of this array. 
 
@@ -24,7 +27,6 @@ print(pie[6])	#returns character at specified index
 Apple
 i
 ```
- 
 
 Note: This method of specifying the start and end index to specify a part of a string is called slicing. 
 ### Slicing Example:
@@ -42,6 +44,8 @@ Pie
 pleP
 ApplePie
 ```
+---
+
 ## Loop through a String:
 Strings are arrays and arrays are iterable. Thus we can loop through strings.
 ### Example:
@@ -58,3 +62,4 @@ C
 D
 E
 ```
+---
