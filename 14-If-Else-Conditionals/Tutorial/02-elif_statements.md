@@ -13,7 +13,7 @@ Execute the block of code inside the nth elif statement if the expression inside
 
 Execute the block of code inside else statement if none of the expression evaluates to True. After execution return to the code out of the if block.
 
-## Example:
+### Example
 ```python
 num = 0
 if (num < 0):
@@ -23,7 +23,7 @@ elif (num == 0):
 else:
     print("Number is positive.")
 ```
-## Output:
+#### Output:
 ```
 Number is Zero.
 ```
