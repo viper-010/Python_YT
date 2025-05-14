@@ -10,7 +10,7 @@ timestamp = time.strftime('%M')
 print(timestamp)
 timestamp = time.strftime('%S')
 print(timestamp)
-
-## [Next Lesson>>](https://replit.com/@codewithharry/04-Day4-Our-First-Program)
-(https://docs.python.org/3/library/time.html#time.strftime)
 ```
+## [Next Lesson>>](https://replit.com/@codewithharry/04-Day4-Our-First-Program)
+https://docs.python.org/3/library/time.html#time.strftime
+
