@@ -226,7 +226,7 @@ ValueError: substring not found
 ## isalnum() 
 The isalnum() method returns True only if the entire string only consists of A-Z, a-z, 0-9. If any other characters or punctuations are present, then it returns False.
 
-### Example 1
+### Example 
 ```python
 str1 = "WelcomeToTheConsole"
 print(str1.isalnum())
