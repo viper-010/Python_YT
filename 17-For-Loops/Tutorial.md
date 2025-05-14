@@ -34,6 +34,8 @@ Blue\
 Yellow
 
 Similarly, we can use loops for lists, sets and dictionaries.
+
+---
 ## range()
 What if we do not want to iterate over a sequence? What if we want to use for loop for a specific number of times?
 
