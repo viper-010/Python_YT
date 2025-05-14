@@ -73,7 +73,7 @@ Here, **stop** = 9-1 = **8**
 
 ### Example 3: range (x,n-1,m) -> range(start, stop,step)
 ```python
-for i in range(0, 11, 2):
+for i in range(0, 10, 2):
     print(i)  
 ```
 #### Output:
@@ -83,8 +83,9 @@ for i in range(0, 11, 2):
 4\
 5\
 6\
-8\
-10\
+8
+
+Here 
 
 
 
