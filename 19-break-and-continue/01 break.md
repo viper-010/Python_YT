@@ -1,6 +1,7 @@
 # break statement
 The break statement enables a program to skip over a part of the code. A break statement terminates the very loop it lies within.
-## example
+
+### Example
 
 ```python '
 for i in range(1,101,1):
@@ -11,7 +12,7 @@ for i in range(1,101,1):
         print("Mississippi")
 print("Thank you")
 ```
-### output
+#### Output:
 ```
 1 Mississippi
 2 Mississippi
