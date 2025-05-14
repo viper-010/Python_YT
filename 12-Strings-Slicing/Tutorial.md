@@ -2,7 +2,7 @@
 ## Length of a String
 We can find the length of a string using len() function.
 
-### Example:
+### Example
 ```python
 fruit = "Mango"
 len1 = len(fruit)
@@ -16,7 +16,7 @@ Mango is a 5 letter word.
 ## String as an array
 A string is essentially a sequence of characters also called an array. Thus we can access the elements of this array. 
 
-### Example:
+### Example
 ```python
 pie = "ApplePie"
 print(pie[:5])
@@ -32,7 +32,7 @@ Note: This method of specifying the start and end index to specify a part of a s
 
 ---
 
-### Slicing Example:
+### Slicing Example
 ```python
 pie = "ApplePie"
 print(pie[:5])      #Slicing from Start
@@ -51,7 +51,7 @@ ApplePie
 
 ## Loop through a String:
 Strings are arrays and arrays are iterable. Thus we can loop through strings.
-### Example:
+### Example
 ```python
 alphabets = "ABCDE"
 for i in alphabets:
