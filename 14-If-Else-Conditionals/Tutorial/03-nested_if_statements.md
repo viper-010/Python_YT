@@ -1,6 +1,6 @@
 # Nested if statements
 We can use if, if-else, elif statements inside other if statements as well. \
-Example:
+### Example
 ```python
 num = 18
 if (num < 0):
@@ -15,8 +15,7 @@ elif (num > 0):
 else:
     print("Number is zero")
 ```
-Output:
+#### Output:
 ```
 Number is between 11-20
 ```
-## [Next Lesson>>](https://replit.com/@codewithharry/15-Day15-Exercise-2-Good-Morning-Sir#.tutorial/Tutorial.md)
