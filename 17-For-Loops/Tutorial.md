@@ -85,6 +85,6 @@ for i in range(0, 10, 2):
 6\
 8
 
-Here,
+Here,\
 **stop** = 10-1 = **9**\
 **diff** = **2**
