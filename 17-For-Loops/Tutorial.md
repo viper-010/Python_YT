@@ -56,11 +56,7 @@ for k in range(5):
 
 Here, we can see that the loop starts from 0 by default and increments at each iteration.
 
- 
-
-But we can also loop over a specific range.
-
-### Example
+### Example: we can also loop over a specific range.
 ```python
 for k in range(4,9):
     print(k)
