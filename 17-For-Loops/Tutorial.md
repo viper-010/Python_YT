@@ -52,7 +52,7 @@ for k in range(5):
 1\
 2\
 3\
-4\
+4
 
 Here, we can see that the loop starts from 0 by default and increments at each iteration.
 
