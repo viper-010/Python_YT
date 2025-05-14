@@ -41,7 +41,7 @@ What if we do not want to iterate over a sequence? What if we want to use for lo
 
 Here, we can use the range() function.
 
-### Example
+### Example 1: we can also loop over a specific range
 ```python
 for k in range(5):
     print(k)
@@ -56,7 +56,7 @@ for k in range(5):
 
 Here, we can see that the loop starts from 0 by default and increments at each iteration.
 
-### Example: we can also loop over a specific range.
+### Example 2: Range i.e(x,n-1)
 ```python
 for k in range(4,9):
     print(k)
