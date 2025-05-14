@@ -42,4 +42,4 @@ match x:
 x % 2 == 0 and case is 4
 ```
 ---
-- **_** is a wildcard or default case matcher
+- _ is a **wildcard** or **default case matcher**
