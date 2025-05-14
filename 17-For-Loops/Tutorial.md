@@ -39,7 +39,7 @@ What if we do not want to iterate over a sequence? What if we want to use for lo
 
 Here, we can use the range() function.
 
-### Example:
+### Example
 ```python
 for k in range(5):
     print(k)
@@ -57,7 +57,7 @@ Here, we can see that the loop starts from 0 by default and increments at each i
 
 But we can also loop over a specific range.
 
-### Example:
+### Example
 ```python
 for k in range(4,9):
     print(k)
