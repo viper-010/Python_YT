@@ -9,7 +9,7 @@ There are two types of functions:
 2. User-defined functions
  
 
- ## Built-in functions:
+## Built-in functions:
 These functions are defined and pre-coded in python. Some examples of built-in functions are as follows:
 
 min(), max(), len(), sum(), type(), range(), dict(), list(), tuple(), set(), print(), etc.
@@ -33,15 +33,14 @@ def function_name(parameters):
 ### Calling a function:
 We call a function by giving the function name, followed by parameters (if any) in the parenthesis.
 
-Example:
+#### Example
 ```python
 def name(fname, lname):
     print("Hello,", fname, lname)
 
 name("Sam", "Wilson")
 ```
-Output:
+**Output**:
 ```
 Hello, Sam Wilson
 ```
-## [Next Lesson>>](https://replit.com/@codewithharry/21-Day-21-Function-Arguments)
