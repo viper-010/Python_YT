@@ -9,7 +9,7 @@ The most common technique to emulate a do-while loop in Python is to use an infi
 while True:
   number = int(input("Enter a positive number: "))
   print(number)
-  if not number > 0: #If the number is not greater than 0 (i.e., it's 0 or negative)
+  if not number > 0: #If the number is not greater than 0 (i.e. 0 or -ve)
     break
 ```
 #### Output:
