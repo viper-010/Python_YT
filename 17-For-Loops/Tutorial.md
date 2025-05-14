@@ -56,7 +56,7 @@ for k in range(5):
 
 Here, we can see that the loop starts from 0 by default and increments at each iteration.
 
-### Example 2: Range i.e(x,n-1)
+### Example 2: Range (x,n-1)
 ```python
 for k in range(4,9):
     print(k)
