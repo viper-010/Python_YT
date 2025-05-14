@@ -2,7 +2,7 @@
 Python provides a set of built-in methods that we can use to alter and modify the strings.
 
 ---
-## upper() :
+## upper() 
 The upper() method converts a string to upper case.
 
 ### Example
@@ -27,8 +27,9 @@ print(str1.lower())
 ```
 abcdefghij
  ```
+---
 
-## strip() :
+## strip() 
 The strip() method removes any white spaces before and after the string.
 ### Example
 ```python
@@ -39,8 +40,9 @@ print(str2.strip)
 ```
 Silver Spoon
 ``` 
+---
 
-## rstrip() : 
+## rstrip() 
 the rstrip() removes any trailing characters.
 ### Example
 ```python
@@ -51,8 +53,9 @@ print(str3.rstrip("!"))
 ```
 Hello
  ```
+---
 
-## replace() : 
+## replace() 
 The replace() method replaces all occurences of a string with another string.
 ### Example
 ```python
@@ -63,6 +66,7 @@ print(str2.replace("Sp", "M"))
 ```
 Silver Moon
  ```
+---
 
 ## split() :
 The split() method splits the given string at the specified instance and returns the separated strings as list items.
