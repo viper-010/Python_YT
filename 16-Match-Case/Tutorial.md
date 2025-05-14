@@ -18,7 +18,7 @@ match variable_name:
             …            
             case ‘pattern n’ : //statement n
 ```
-### Example:
+### Example
 ```python
 x = 4
 # x is the variable to match
@@ -37,8 +37,9 @@ match x:
     case _:
         print(x)
 ```
-### Output:
+#### Output:
 ```
 x % 2 == 0 and case is 4
 ```
-## [Next Lesson>>](https://replit.com/@codewithharry/17-Day17-For-Loops)
+---
+- _ is a **wildcard** or **default case matcher**
