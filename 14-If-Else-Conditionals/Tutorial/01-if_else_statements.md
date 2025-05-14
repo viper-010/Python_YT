@@ -6,13 +6,15 @@ Based on this, the conditional statements are further classified into following 
 - if-else
 - if-else-elif
 - nested if-else-elif.
+---
+
 ## An if……else statement evaluates like this:
 
 ### if the expression evaluates True:
 Execute the block of code inside if statement. After execution return to the code out of the if……else block.\
 ### if the expression evaluates False:
 Execute the block of code inside else statement. After execution return to the code out of the if……else block.
- ## Example:
+### Example
 ```python
 applePrice = 210
 budget = 200
@@ -21,7 +23,7 @@ if (applePrice <= budget):
 else:
     print("Alexa, do not add Apples to the cart.")
 ```
-## Output:
+#### Output:
 ```
 Alexa, do not add Apples to the cart.
 ```
