@@ -86,4 +86,4 @@ for i in range(0, 10, 2):
 8
 
 Here, **stop** = 10-1 = **9**\
-      **diff** = 2
+and   **diff** = **2**
