@@ -29,6 +29,8 @@ def function_name(parameters):
  - Any parameters and arguments should be placed within the parentheses.
  - Rules to naming function are similar to that of naming variables.
  - Any statements and other code within the function should be indented.
+ - **pass** * When you're designing your code structure and plan to add logic late
+            * This function does nothing for now, but won’t cause a syntax error
 ---
 
 ### Calling a function:
