@@ -38,7 +38,6 @@ We call a function by giving the function name, followed by parameters (if any) 
 ```python
 def name(fname, lname):
     print("Hello,", fname, lname)
-
 name("Sam", "Wilson")
 ```
 **Output**:
