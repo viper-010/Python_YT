@@ -42,7 +42,7 @@ Hello, Jade Peter Wesker
 ## Required arguments:
 In case we don’t pass the arguments with a key = value syntax, then it is necessary to pass the arguments in the correct positional order and the number of arguments passed should match with actual function definition.
 
-### Example 1: when number of arguments passed does not match to the actual function definition
+### Example 1: when number of arguments passed does not match to the actual function definition.
 ```python
 def name(fname, mname, lname):
     print("Hello,", fname, mname, lname)
