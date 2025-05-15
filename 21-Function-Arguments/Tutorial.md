@@ -87,7 +87,6 @@ name("James", "Buchanan", "Barnes")
 ```
 Hello, James Buchanan Barnes
  ```
----
 
 ## Keyword Arbitrary Arguments:
 While creating a function, pass a * before the parameter name while defining the function. The function accesses the arguments by processing them in the form of dictionary.
