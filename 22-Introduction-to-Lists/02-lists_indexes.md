@@ -78,6 +78,7 @@ else:
 ```
 Orange is absent.
 ```
+---
 
 ## Range of Index:
 You can print a range of list items by specifying where you want to start, where do you want to end and if you want to skip elements in between the range. 
@@ -88,9 +89,7 @@ listName[start : end : jumpIndex]
 ```
 Note: jump Index is optional. We will see this in later examples.
 
- 
-
-### Example: printing elements within a particular range:
+### Example 1: printing elements within a particular range
 ```python
 animals = ["cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"]
 print(animals[3:7])	#using positive indexes
@@ -105,15 +104,13 @@ Here, we provide index of the element from where we want to start and the index 
 
 Note: The element of the end index provided will not be included. 
 
- 
-
-### Example: printing all element from a given index till the end
+### Example 2: printing all element from a given index till the end
 ```python
 animals = ["cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"]
 print(animals[4:])	#using positive indexes
 print(animals[-4:])	#using negative indexes
 ```
-### Output:
+#### Output:
 ```
 ['pig', 'horse', 'donkey', 'goat', 'cow']
 ['horse', 'donkey', 'goat', 'cow']
@@ -122,7 +119,7 @@ When no end index is provided, the interpreter prints all the values till the en
 
  
 
-### Example: printing all elements from start to a given index
+### Example 3: printing all elements from start to a given index
 ```python
 animals = ["cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"]
 print(animals[:6])	#using positive indexes
@@ -135,29 +132,25 @@ print(animals[:-3])	#using negative indexes
 ```
 When no start index is provided, the interpreter prints all the values from start up to the end index provided. 
 
- 
-
-### Example: Printing alternate values
+### Example 4: Printing alternate values
 ```python
 animals = ["cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"]
 print(animals[::2])		#using positive indexes
 print(animals[-8:-1:2])	#using negative indexes
 ```
-### Output:
+#### Output:
 ```
 ['cat', 'bat', 'pig', 'donkey', 'cow']
 ['dog', 'mouse', 'horse', 'goat']
 ```
 Here, we have not provided start and index, which means all the values will be considered. But as we have provided a jump index of 2 only alternate values will be printed. 
 
- 
-
-### Example: printing every 3rd consecutive value withing a given range
+### Example 5: printing every 3rd consecutive value withing a given range
 ```python
 animals = ["cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"]
 print(animals[1:8:3])
 ```
-### Output:
+#### Output:
 ```
 ['dog', 'pig', 'goat
 ```
