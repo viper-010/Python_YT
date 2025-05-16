@@ -102,7 +102,7 @@ print(animals[-7:-2])	#using negative indexes'
 ```
 Here, we provide index of the element from where we want to start and the index of the element till which we want to print the values.
 
-Note: The element of the end index provided will not be included. 
+**Note**: The element of the end index provided will not be included. 
 
 ### Example 2: printing all element from a given index till the end
 ```python
