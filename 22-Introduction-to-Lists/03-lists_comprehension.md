@@ -1,8 +1,6 @@
 # List Comprehension
 List comprehensions are used for creating new lists from other iterables like lists, tuples, dictionaries, sets, and even in arrays and strings.
 
- 
-
 ## Syntax:
 
 List = [Expression(item) for item in iterable if Condition]
@@ -21,7 +19,7 @@ names = ["Milo", "Sarah", "Bruno", "Anastasia", "Rosa"]
 namesWith_O = [item for item in names if "o" in item]
 print(namesWith_O)
 ```
-### Output:
+#### Output:
 ```
 ['Milo', 'Bruno', 'Rosa']
  ```
@@ -32,7 +30,7 @@ names = ["Milo", "Sarah", "Bruno", "Anastasia", "Rosa"]
 namesWith_O = [item for item in names if (len(item) > 4)]
 print(namesWith_O)
 ```
-### Output:
+#### Output:
 ```
 ['Sarah', 'Bruno', 'Anastasia']
 ```
