@@ -1,19 +1,21 @@
 # List Index
 Each item/element in a list has its own unique index. This index can be used to access any particular item from the list. The first item has index [0], second item has index [1], third item has index [2] and so on.
 
-#### Example:
+### Example:
 ```python
 colors = ["Red", "Green", "Blue", "Yellow", "Green"]
 #          [0]      [1]     [2]      [3]      [4]
  ```
+---
 
 # Accessing list items
  We can access list items by using its index with the square bracket syntax []. For example colors[0] will give "Red", colors[1] will give "Green" and so on...
-
-## Positive Indexing:
+ 
+---
+## Positive Indexing
 As we have seen that list items have index, as such we can access items using these indexes.
 
-#### Example:
+### Example
 ```python
 colors = ["Red", "Green", "Blue", "Yellow", "Green"]
 #          [0]      [1]     [2]      [3]      [4]
@@ -27,11 +29,12 @@ Blue
 Green
 Red
  ```
+---
 
-## Negative Indexing:
+## Negative Indexing
 Similar to positive indexing, negative indexing is also used to access items, but from the end of the list. The last item has index [-1], second last item has index [-2], third last item has index [-3] and so on.
 
-#### Example:
+### Example
 ```python
 colors = ["Red", "Green", "Blue", "Yellow", "Green"]
 #          [-5]    [-4]    [-3]     [-2]      [-1]
@@ -45,6 +48,7 @@ Green
 Blue
 Red
 ```
+---
 
 ## Check whether an item in present in the list?
 We can check if a given item is present in the list. This is done using the `in` keyword.
