@@ -52,6 +52,7 @@ Red
 
 ## Check whether an item in present in the list?
 We can check if a given item is present in the list. This is done using the `in` keyword.
+### Example 1
 ```python
 colors = ["Red", "Green", "Blue", "Yellow", "Green"]
 if "Yellow" in colors:
@@ -64,7 +65,8 @@ else:
 ```
 Yellow is present.
 ```
- 
+
+ ### Example 2
 ```python
 colors = ["Red", "Green", "Blue", "Yellow", "Green"]
 if "Orange" in colors:
