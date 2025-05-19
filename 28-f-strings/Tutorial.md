@@ -26,11 +26,11 @@ In the above code, we have used the f-string to format the string. It evaluates 
 
 We can use it in a single statement as well.
 
-## Example 2
+### Example 2
 ```python
 print(f"{2 * 30})"  
 ```
-## Output:
+#### Output:
 ```
 60
 ```
