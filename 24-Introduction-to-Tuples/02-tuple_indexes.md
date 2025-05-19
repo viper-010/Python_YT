@@ -1,6 +1,6 @@
 # Tuple Indexes
 Each item/element in a tuple has its own unique index. This index can be used to access any particular item from the tuple. The first item has index [0], second item has index [1], third item has index [2] and so on.
-### Example:
+### Example
 ```python
 country = ("Spain", "Italy", "India",)
 #            [0]      [1]      [2]              
