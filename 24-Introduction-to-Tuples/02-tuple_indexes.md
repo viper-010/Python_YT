@@ -140,7 +140,7 @@ print(animals[-8:-1:2]) #using negative indexes
 ```
 Here, we have not provided start and end index, which means all the values will be considered. But as we have provided a jump index of 2 only alternate values will be printed. 
 
-### Example 5: printing every 3rd consecutive withing given range
+### Example 5: printing every 3rd consecutive within given range
 ```python
 animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
 print(animals[1:8:3])
