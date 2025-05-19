@@ -40,8 +40,7 @@ The reverse parameter is set to False by default.
 
 Note: Do not mistake the reverse parameter with the reverse method.
 
- 
-
+---
 ## reverse()
 This method reverses the order of the list. 
 
@@ -60,6 +59,7 @@ print(num)
 ['green', 'blue', 'indigo', 'voilet']
 [7, 9, 8, 2, 1, 2, 1, 6, 3, 5, 2, 4]
  ```
+---
 
 ## index()
 This method returns the index of the first occurrence of the list item.
@@ -76,6 +76,7 @@ print(num.index(3))
 1
 3
  ```
+---
 
 ## count()
 Returns the count of the number of items with the given value.
@@ -91,6 +92,7 @@ num = [4,2,5,3,6,1,2,1,3,2,8,9,7]
 2
 3
  ```
+---
 
 ## copy()
 Returns copy of the list. This can be done to perform operations on the list without modifying the original list. 
@@ -107,6 +109,8 @@ print(newlist)
 ['voilet', 'green', 'indigo', 'blue']
 ['voilet', 'green', 'indigo', 'blue']
 ```
+---
+
 ## append():
 This method appends items to the end of the existing list.
 
@@ -120,6 +124,8 @@ print(colors)
 ```
 ['voilet', 'indigo', 'blue', 'green']
  ```
+---
+
 ## insert():
 This method inserts an item at the given index. User has to specify index and the item to be inserted within the insert() method.
 
@@ -138,6 +144,8 @@ print(colors)
 ```
 ['voilet', 'green', 'indigo', 'blue']
  ```
+---
+
 ## extend():
 This method adds an entire list or any other collection datatype (set, tuple, dictionary) to the existing list.
 
@@ -152,6 +160,8 @@ print(colors)
 #### Output:
 ```
 ['voilet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red']
+---
+
  ```
 ## Concatenating two lists
 You can simply concatenate two lists to join two lists.
