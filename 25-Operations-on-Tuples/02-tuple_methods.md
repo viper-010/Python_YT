@@ -19,7 +19,7 @@ print('Count of 3 in Tuple1 is:', res)
 3
 
 ---
-# index() method
+## index() method
 The Index() method returns the first occurrence of the given element from the tuple.
 
 ### Syntax:
