@@ -87,9 +87,7 @@ Tuple[start : end : jumpIndex]
 ```
 Note: jump Index is optional. We will see this in given examples.
 
- 
-
-### Example: Printing elements within a particular range
+### Example 1: Printing elements within a particular range
 ```python
 animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
 print(animals[3:7])     #using positive indexes
@@ -103,9 +101,7 @@ print(animals[-7:-2])   #using negative indexes
 Here, we provide index of the element from where we want to start and the index of the element till which we want to print the values. 
 Note: The element of the end index provided will not be included.
 
- 
-
-### Example: Printing all element from a given index till the end
+### Example 2: Printing all element from a given index till the end
 ```python
 animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
 print(animals[4:])      #using positive indexes
@@ -118,9 +114,7 @@ print(animals[-4:])     #using negative indexes
 ```
 When no end index is provided, the interpreter prints all the values till the end.
 
- 
-
-### Example: printing all elements from start to a given index
+### Example 3: printing all elements from start to a given index
 ```python
 animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
 print(animals[:6])      #using positive indexes
@@ -133,9 +127,7 @@ print(animals[:-3])     #using negative indexes
 ```
 When no start index is provided, the interpreter prints all the values from start up to the end index provided. 
 
- 
-
-### Example: Print alternate values
+### Example 4: Print alternate values
 ```python
 animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
 print(animals[::2])     #using positive indexes
@@ -148,9 +140,7 @@ print(animals[-8:-1:2]) #using negative indexes
 ```
 Here, we have not provided start and end index, which means all the values will be considered. But as we have provided a jump index of 2 only alternate values will be printed. 
 
- 
-
-### Example: printing every 3rd consecutive withing given range
+### Example 5: printing every 3rd consecutive withing given range
 ```python
 animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
 print(animals[1:8:3])
