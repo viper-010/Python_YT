@@ -1,19 +1,18 @@
 # Tuple Indexes
 Each item/element in a tuple has its own unique index. This index can be used to access any particular item from the tuple. The first item has index [0], second item has index [1], third item has index [2] and so on.
-
 ### Example:
 ```python
 country = ("Spain", "Italy", "India",)
 #            [0]      [1]      [2]              
  ```
+---
 
-## Accessing tuple items:
+## Accessing tuple items
  
-
-### I. Positive Indexing:
+## I. Positive Indexing:
 As we have seen that tuple items have index, as such we can access items using these indexes.
 
-Example:
+### Example
 ```python
 country = ("Spain", "Italy", "India",)
 #            [0]      [1]      [2]     
@@ -21,17 +20,18 @@ print(country[0])
 print(country[1])
 print(country[2])
 ```
-Output:
+#### Output:
 ```
 Spain
 Italy
 India
  ```
+---
 
-### II. Negative Indexing:
+## II. Negative Indexing:
 Similar to positive indexing, negative indexing is also used to access items, but from the end of the tuple. The last item has index [-1], second last item has index [-2], third last item has index [-3] and so on.
 
-### Example:
+### Example
 ```python
 country = ("Spain", "Italy", "India", "England", "Germany")
 #            [0]      [1]      [2]       [3]        [4]
@@ -39,7 +39,7 @@ print(country[-1]) # Similar to print(country[len(country) - 1])
 print(country[-3])
 print(country[-4])
 ```
-### Output:
+#### Output:
 ```
 Germany
 India
@@ -49,7 +49,7 @@ Italy
 ## III. Check for item:
 We can check if a given item is present in the tuple. This is done using the `in` keyword.
 
-### Example 1:
+### Example 1
 ```python
 country = ("Spain", "Italy", "India", "England", "Germany")
 if "Germany" in country:
@@ -57,12 +57,12 @@ if "Germany" in country:
 else:
     print("Germany is absent.")
   ```
-### Output:
+#### Output:
 ```
 Germany is present.
  ```
 
-### Example 2:
+### Example 2
 ```python
 country = ("Spain", "Italy", "India", "England", "Germany")
 if "Russia" in country:
@@ -70,12 +70,12 @@ if "Russia" in country:
 else:
     print("Russia is absent.")
   ```
-### Output:
+#### Output:
 ```
 Russia is absent.
  ```
 
-### IV. Range of Index:
+## IV. Range of Index:
 You can print a range of tuple items by specifying where do you want to start, where do you want to end and if you want to skip elements in between the range.
 
 
@@ -87,13 +87,13 @@ Note: jump Index is optional. We will see this in given examples.
 
  
 
-### Example: Printing elements within a particular range:
+### Example: Printing elements within a particular range
 ```python
 animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
 print(animals[3:7])     #using positive indexes
 print(animals[-7:-2])   #using negative indexes
 ```
-### Output:
+#### Output:
 ```
 ('mouse', 'pig', 'horse', 'donkey')
 ('bat', 'mouse', 'pig', 'horse', 'donkey')
@@ -109,7 +109,7 @@ animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"
 print(animals[4:])      #using positive indexes
 print(animals[-4:])     #using negative indexes
 ```
-### Output:
+#### Output:
 ```
 ('pig', 'horse', 'donkey', 'goat', 'cow')
 ('horse', 'donkey', 'goat', 'cow') 
@@ -124,7 +124,7 @@ animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"
 print(animals[:6])      #using positive indexes
 print(animals[:-3])     #using negative indexes
 ```
-### Output:
+#### Output:
 ```
 ('cat', 'dog', 'bat', 'mouse', 'pig', 'horse')
 ('cat', 'dog', 'bat', 'mouse', 'pig', 'horse')
@@ -139,7 +139,7 @@ animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"
 print(animals[::2])     #using positive indexes
 print(animals[-8:-1:2]) #using negative indexes
 ```
-### Output:
+#### Output:
 ```
 ('cat', 'bat', 'pig', 'donkey', 'cow')
 ('dog', 'mouse', 'horse', 'goat')
@@ -153,9 +153,9 @@ Here, we have not provided start and end index, which means all the values will 
 animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
 print(animals[1:8:3])
 ```
-### Output:
+#### Output:
 ```
 ('dog', 'pig', 'goat')
 ```
 Here, jump index is 3. Hence it prints every 3rd element within given index.
-## [Next Lesson>>](https://replit.com/@codewithharry/25-Day25-Operations-on-Tuples)
+
