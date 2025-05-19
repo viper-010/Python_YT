@@ -45,6 +45,7 @@ Germany
 India
 Italy
  ```
+---
 
 ## III. Check for item:
 We can check if a given item is present in the tuple. This is done using the `in` keyword.
