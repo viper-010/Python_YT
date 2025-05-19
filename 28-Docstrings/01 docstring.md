@@ -1,6 +1,6 @@
 # Docstrings in python
 Python docstrings are the string literals that appear right after the definition of a function, method, class, or module. 
-## Example
+### Example
 ```python
 def square(n):
     '''Takes in a number n, returns the square of n'''
@@ -13,7 +13,7 @@ Here,
 '''Takes in a number n, returns the square of n''' 
 is a docstring which will not appear in output
 
-## Output:
+#### Output:
 ```
 25
 ```
@@ -54,19 +54,22 @@ def add(num1, num2):
     """
     return num1 + num2
 ```
+---
 ## Python Comments vs Docstrings
-### Python Comments
 
+## Python Comments
 Comments are descriptions that help programmers better understand the intent and functionality of the program. They are completely ignored by the Python interpreter.
-### Python docstrings
+
+## Python docstrings
 
 As mentioned above, Python docstrings are strings used right after the definition of a function, method, class, or module (like in Example 1). They are used to document our code.
 
 We can access these docstrings using the __doc__ attribute.
-## Python __doc__ attribute
+
+### Python __doc__ attribute
 Whenever string literals are present just after the definition of a function, module, class or method, they are associated with the object as their __doc__ attribute. We can later use this attribute to retrieve this docstring.
 
-## Example
+#### Example
 ```python
 def square(n):
     '''Takes in a number n, returns the square of n'''
@@ -74,5 +77,5 @@ def square(n):
 
 print(square.__doc__)
 ```
-## Output:
+#### Output:
 Takes in a number n, returns the square of n
