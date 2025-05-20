@@ -57,7 +57,7 @@ def add(num1, num2):
 ---
 ## Python Comments vs Docstrings
 
-## Python Comments
+## Python Comments:
 Comments are descriptions that help programmers better understand the intent and functionality of the program. They are completely ignored by the Python interpreter.
 
 ## Python docstrings
