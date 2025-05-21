@@ -6,7 +6,7 @@ Sets in python more or less work in the same way as sets in mathematics. We can 
 The union() and update() methods prints all items that are present in the two sets. The union() method returns a new set whereas update() method adds item into the existing set from another set.
 
 ### Example 1 - union(): 
-### joining both of them, leaving the reapeated ones
+#### joining both of them, leaving the reapeated ones
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
@@ -18,7 +18,8 @@ print(cities3)
 {'Tokyo', 'Madrid', 'Kabul', 'Seoul', 'Berlin', 'Delhi'}
  ```
 
-### Example 2 - update(): updating the one that are not there in that, without disturbing the other 
+### Example 2 - 
+#### update(): updating the one that are not there in that, without disturbing the other 
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
