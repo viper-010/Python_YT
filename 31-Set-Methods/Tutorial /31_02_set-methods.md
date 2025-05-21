@@ -33,10 +33,11 @@ print(cities.issuperset(cities3))
 False\
 False
 
+---
 ## issubset():
 The issubset() method checks if all the items of the original set are present in the particular set. It returns True if all the items are present, else it returns False.
 
-#### Example:
+### Example
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Delhi", "Madrid"}
@@ -48,7 +49,7 @@ True
 # add()
 If you want to add a single item to the set use the add() method.
 
-#### Example:
+### Example
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities.add("Helsinki")
@@ -57,7 +58,8 @@ print(cities)
 #### Output:
 
 {'Tokyo', 'Helsinki', 'Madrid', 'Berlin', 'Delhi'}
- 
+
+---
 ## update()
 If you want to add more than one item, simply create another set or any other iterable object(list, tuple, dictionary), and use the update() method to add it into the existing set.
 
