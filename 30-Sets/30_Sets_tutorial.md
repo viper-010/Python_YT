@@ -14,9 +14,9 @@ Here we see that the items of set occur in random order and hence they cannot be
 
  **Quick Quiz:** Try to create an empty set. Check using the type() function whether the type of your variable is a set
 
+---
 ## Accessing set items:
  
-
 ### Using a For loop
 You can access items of set using a for loop. 
 
