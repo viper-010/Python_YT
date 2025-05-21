@@ -1,9 +1,11 @@
 # Set Methods
 There are several in-built methods used for the manipulation of set.They are explained below
-## isdisjoint():
+
+---
+## isdisjoint() :
 The isdisjoint() method checks if items of given set are present in another set. This method returns False if items are present, else it returns True.
 
-#### Example:
+### Example:
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
@@ -13,11 +15,12 @@ print(cities.isdisjoint(cities2))
 
 False
 
+---
 
-## issuperset():
+## issuperset() :
 The issuperset() method checks if all the items of a particular set are present in the original set. It returns True if all the items are present, else it returns False.
 
-#### Example:
+### Example:
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Seoul", "Kabul"}
