@@ -12,7 +12,8 @@ print(info)
  ```
 Here we see that the items of set occur in random order and hence they cannot be accessed using index numbers. Also sets do not allow duplicate values.
 
- ### Quick Quiz: Try to create an empty set. Check using the type() function whether the type of your variable is a set
+ ### Quick Quiz: Try to create an empty set. 
+ - Check using the type() function whether the type of your variable is a set
 
 ### Example 1
 ```python
