@@ -20,7 +20,7 @@ Here we see that the items of set occur in random order and hence they cannot be
 ### Using a For loop
 You can access items of set using a for loop. 
 
-### Example:
+### Example
 ```python
 info = {"Carla", 19, False, 5.9}
 for item in info:
