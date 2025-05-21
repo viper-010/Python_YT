@@ -1,5 +1,5 @@
 # Set Methods
-There are several in-built methods used for the manipulation of set.They are explained below
+There are several in-built methods used for the manipulation of set. They are explained below
 
 ---
 ## isdisjoint() 
