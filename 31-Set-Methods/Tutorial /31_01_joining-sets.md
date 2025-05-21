@@ -73,7 +73,8 @@ print(cities3)
 {'Seoul', 'Kabul', 'Berlin', 'Delhi'}
  ```
 
-### Example 2 - symmetric_difference_update(): updates the one that are not common in both, modifies the original set  
+### Example 2 - symmetric_difference_update(): updates the one that are not common in both, 
+###             modifies the original set  
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
