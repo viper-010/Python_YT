@@ -14,6 +14,25 @@ Here we see that the items of set occur in random order and hence they cannot be
 
  **Quick Quiz:** Try to create an empty set. Check using the type() function whether the type of your variable is a set
 
+### Example 1
+```python
+rohan = {}
+print(type(rohan))
+```
+#### Output:
+```
+<class 'dict'>
+ ```
+
+### Example 2
+```python
+rohan = set()
+print(type(rohan))
+```
+#### Output:
+```
+<class 'set'>
+ ```
 ---
 ## Accessing set items:
  
