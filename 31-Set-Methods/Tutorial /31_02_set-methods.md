@@ -30,7 +30,7 @@ print(cities.issuperset(cities3))
 ```
 #### Output:
 ```
-False\
+False
 False
 ```
 ---
