@@ -10,12 +10,10 @@ print(info)
 ```
 {'name': 'Karan', 'age': 19, 'eligible': True}
 ```
-
 ## Accessing Dictionary items:
- 
+---
 ## I. Accessing single values:
 Values in a dictionary can be accessed using keys. We can access dictionary values by mentioning keys either in square brackets or by using get method.
-
 ### Example:
 ```python
 info = {'name':'Karan', 'age':19, 'eligible':True}
@@ -27,7 +25,7 @@ print(info.get('eligible'))
 Karan
 True
  ```
-
+---
 ## II. Accessing multiple values:
 We can print all the values in the dictionary using values() method.
 
@@ -40,7 +38,7 @@ print(info.values())
 ```
 dict_values(['Karan', 19, True])
  ```
-
+---
 ## III. Accessing keys:
 We can print all the keys in the dictionary using keys() method.
 
@@ -53,7 +51,7 @@ print(info.keys())
 ```
 dict_keys(['name', 'age', 'eligible'])
  ```
-
+---
 ## IV. Accessing key-value pairs:
 We can print all the key-value pairs in the dictionary using items() method.
 
