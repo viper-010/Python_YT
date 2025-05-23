@@ -87,9 +87,13 @@ print(cities)
 # remove()/discard()
 We can use remove() and discard() methods to remove items form list.
 
-- **remove()** - removes the item (only 1 argument), if the item is not present then throws an error 
-- **discard()** - removes the item (only 1 argument), if the item is not present then it doesn't throws any error,
-                  gives the same original set
+**remove()** 
+- removes the item (only 1 argument) 
+- if the item is not present then throws an error 
+
+**discard()**
+- removes the item (only 1 argument)
+- if the item is not present then it doesn't throws any error, gives the same original set
 
 
 ### Example 1
