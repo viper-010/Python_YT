@@ -95,7 +95,6 @@ We can use remove() and discard() methods to remove items form list.
 - removes the item (only 1 argument)
 - if the item is not present then it doesn't throws any error, gives the same original set
 
-
 ### Example 1
 ```python 
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
@@ -106,7 +105,6 @@ print(cities)
 ```
 {'Delhi', 'Berlin', 'Madrid'}
  ```
-- The main difference between remove and discard is that, if we try to delete an item which is not present in set, then remove() raises an error, whereas discard() does not raise any error.
 
 ### Example 2
 ```python
@@ -118,6 +116,7 @@ print(cities)
 ```
 KeyError: 'Seoul' 
 ```
+
 ### Example 3
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
@@ -126,11 +125,10 @@ print(cities)
 ```
 #### Output:
 ```
-
+{'Tokyo', 'Berlin', 'Madrid', 'Delhi'}
 ```
 
 ---
-
 ## pop()
 This method removes the last item of the set but the catch is that we don’t know which item gets popped as sets are unordered. However, you can access the popped item if you assign the pop() method to a variable.
 
