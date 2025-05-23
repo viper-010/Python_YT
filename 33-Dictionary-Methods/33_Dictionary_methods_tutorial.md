@@ -2,7 +2,7 @@
 Dictionary uses several built-in methods for manipulation. They are listed below
 
 ---
-## update() 
+## update():
 The update() method updates the value of the key provided to it if the item already exists in the dictionary, else it creates a new key-value pair.
 
 ### Example
