@@ -1,5 +1,5 @@
 # Dictionary Methods
-Dictionary uses several built-in methods for manipulation.They are listed below
+Dictionary uses several built-in methods for manipulation. They are listed below
 
 ---
 ## update() 
