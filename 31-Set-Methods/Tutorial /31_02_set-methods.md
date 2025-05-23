@@ -52,7 +52,8 @@ True
 ```
 ---
 ## add()
-If you want to add a single item to the set use the add() method.
+- **only 1 argument**
+- If you want to add a single item to the set use the add() method.
 
 ### Example
 ```python
@@ -66,7 +67,9 @@ print(cities)
 ```
 ---
 ## update()
-If you want to add more than one item, simply create another set or any other iterable object(list, tuple, dictionary), and use the update() method to add it into the existing set.
+- **multiple arguments**
+- always expects an iterable 
+- If you want to add more than one item, simply create another set or any other iterable object(list, tuple, dictionary), and use the update() method to add it into the existing set.
 
 ### Example
 ```python
