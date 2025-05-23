@@ -19,7 +19,8 @@ False
 ---
 
 ## issuperset() 
-The issuperset() method checks if all the items of a particular set are present in the original set. It returns True if all the items are present, else it returns False.
+- **parent set**
+- The issuperset() method checks if all the items of a particular set are present in the original set. It returns True if all the items are present, else it returns False.
 
 ### Example
 ```python
