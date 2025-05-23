@@ -15,6 +15,9 @@ print(info)
 ---
 ## I. Accessing single values:
 Values in a dictionary can be accessed using keys. We can access dictionary values by mentioning keys either in square brackets or by using get method.
+
+- When the key is not present you will get error in square brackets
+- When the key is not present you will get **None** no error in get method
 ### Example:
 ```python
 info = {'name':'Karan', 'age':19, 'eligible':True}
