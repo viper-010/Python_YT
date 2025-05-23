@@ -68,7 +68,7 @@ print(cities)
 ---
 ## update()
 - **multiple arguments**
-- always expects an iterable 
+- **always expects an iterable** 
 - If you want to add more than one item, simply create another set or any other iterable object(list, tuple, dictionary), and use the update() method to add it into the existing set.
 
 ### Example
@@ -86,6 +86,10 @@ print(cities)
 
 # remove()/discard()
 We can use remove() and discard() methods to remove items form list.
+
+- **remove()** - removes the items, if the items not present throws an error
+- **discard()** - 
+
 
 ### Example 1
 ```python 
