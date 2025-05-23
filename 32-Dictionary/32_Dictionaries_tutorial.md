@@ -10,6 +10,7 @@ print(info)
 ```
 {'name': 'Karan', 'age': 19, 'eligible': True}
 ```
+---
 ## Accessing Dictionary items:
 ---
 ## I. Accessing single values:
