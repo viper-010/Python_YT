@@ -150,7 +150,8 @@ Madrid
 ---
 
 ## del
-del is not a method, rather it is a keyword which deletes the set entirely.
+- del is not a method, rather it is a keyword.
+- deletes the entitre set
 
 ### Example
 ```python
@@ -161,9 +162,9 @@ print(cities)
 #### Output:
 ```
 NameError: name 'cities' is not defined
-``` 
-We get an error because our entire set has been deleted and there is no variable called cities which contains a set.
+```
 
+We get an error because our entire set has been deleted and there is no variable called cities which contains a set.
 What if we don’t want to delete the entire set, we just want to delete all items within that set?
 
 ---
