@@ -81,6 +81,6 @@ print(df) # This will display first few rows from the words.csv file
 ```
 
 Similarly, we can install other modules and look into their documentation for usage instructions.
-We will find ourselves doing this often in the later part of this course.
+We will find ourselves doing this often in the later part.
 
 ---
