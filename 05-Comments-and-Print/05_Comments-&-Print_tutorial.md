@@ -1,6 +1,6 @@
 # 05 - Comments, Escape sequence & Print in Python
 
-Welcome to 05 of 100DaysOfCode. Today we will talk about Comments, Escape Sequences and little bit more about print statement in Python.
+Today we will talk about Comments, Escape Sequences and little bit more about print statement in Python.
 We will also throw some light on Escape Sequences
 
 
