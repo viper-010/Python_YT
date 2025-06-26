@@ -82,3 +82,5 @@ This **100 Days of Code** series will help you learn Python from the beginning t
 
 ---
 
+**REPL** : read–eval–print loop  
+
