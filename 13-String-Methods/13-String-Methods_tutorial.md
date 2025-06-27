@@ -31,6 +31,20 @@ abcdefghij
  ```
 ---
 
+## isupper() 
+The isupper() method returns True if all the characters in the string are upper case, else it returns False. 
+
+### Example 
+```python
+str1 = "WORLD HEALTH ORGANIZATION" 
+print(str1.isupper())
+```
+#### Output:
+```
+True
+ ```
+---
+
 ## strip() 
 The strip() method removes any white spaces before and after the string.
 
