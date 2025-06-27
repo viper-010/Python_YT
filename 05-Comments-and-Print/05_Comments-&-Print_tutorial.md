@@ -147,6 +147,17 @@ Name: Rohan 25
 
 #### Example 1
 ```python
+print("Rohan","TA")
+```
+
+Output: 
+
+```markup
+Rohan TA
+```
+
+#### Example 2
+```python
 print("Rohan", "TA", sep="-")
 ```
 
@@ -158,7 +169,7 @@ Rohan-TA
 
 - You can use sep='' to remove any space between printed objects:
 
-#### Example 2
+#### Example 3
 ```python
 print("A", "B", "C", sep="")
 ```
