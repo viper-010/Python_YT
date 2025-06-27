@@ -225,39 +225,6 @@ print(str2.split(" "))      #Splits the string at the whitespace " ".
 ```
 ---
 
-## capitalize() 
-The capitalize() method turns only the first character of the string to uppercase and the rest other characters of the string are turned to lowercase. The string has no effect if the first character is already uppercase.
-
-### Example
-```python
-str1 = "hello"
-capStr1 = str1.capitalize()
-print(capStr1)
-str2 = "hello WorlD"
-capStr2 = str2.capitalize()
-print(capStr2)
-```
-#### Output:
-```
-Hello
-Hello world
-```
----
-
-## swapcase() 
-The swapcase() method changes the character casing of the string. Upper case are converted to lower case and lower case to upper case.
-
-### Example
-```python
-str1 = "Python is a Interpreted Language" 
-print(str1.swapcase())
-```
-#### Output:
-```
-pYTHON IS A iNTERPRETED lANGUAGE
- ```
----
-
 ## center() 
 The center() method aligns the string to the center as per the parameters given by the user.
 
@@ -296,45 +263,6 @@ print(countStr)
 ```
 4
 ```
----
-
-## startswith() 
-The endswith() method checks if the string starts with a given value. If yes then return True, else return False. 
-
-### Example 
-```python
-str1 = "Python is a Interpreted Language" 
-print(str1.startswith("Python"))
-```
-#### Output:
-```
-True
- ```
----
-
-## endswith() 
-The endswith() method checks if the string ends with a given value. If yes then return True, else return False. 
-
-### Example 1 
-```python
-str1 = "Welcome to the Console !!!"
-print(str1.endswith("!!!"))
-```
-#### Output:
-```
-True
-```
-We can even also check for a value in-between the string by providing start and end index positions.
-
-### Example 2
-```python
-str1 = "Welcome to the Console !!!"
-print(str1.endswith("to", 4, 10))
-```
-#### Output:
-```
-True
- ```
 ---
 
 ## find() 
@@ -417,20 +345,6 @@ True
  ```
 ---
 
-## islower() 
-The islower() method returns True if all the characters in the string are lower case, else it returns False. 
-
-### Example
-```python
-str1 = "hello world"
-print(str1.islower())
-```
-#### Output:
-```
-True
- ```
----
-
 ## isprintable() 
 The isprintable() method returns True if all the values within the given string are printable, if not, then return False.
 
@@ -460,84 +374,4 @@ print(str2.isspace())
 True
 True
  ```
----
-
-## istitle() 
-The istitile() returns True only if the first letter of each word of the string is capitalized, else it returns False.
-
-### Example 1
-```python
-str1 = "World Health Organization" 
-print(str1.istitle())
-```
-#### Output:
-```
-True
- ```
-
-### Example 2
-```python
-str2 = "To kill a Mocking bird"
-print(str2.istitle())
-```
-#### Output:
-```
-False
- ```
----
-
-## isupper() 
-The isupper() method returns True if all the characters in the string are upper case, else it returns False. 
-
-### Example 
-```python
-str1 = "WORLD HEALTH ORGANIZATION" 
-print(str1.isupper())
-```
-#### Output:
-```
-True
- ```
----
-  
-## startswith() 
-The endswith() method checks if the string starts with a given value. If yes then return True, else return False. 
-
-### Example 
-```python
-str1 = "Python is a Interpreted Language" 
-print(str1.startswith("Python"))
-```
-#### Output:
-```
-True
- ```
----
-
-## swapcase() 
-The swapcase() method changes the character casing of the string. Upper case are converted to lower case and lower case to upper case.
-
-### Example
-```python
-str1 = "Python is a Interpreted Language" 
-print(str1.swapcase())
-```
-#### Output:
-```
-pYTHON IS A iNTERPRETED lANGUAGE
- ```
----
-
-## title() 
-The title() method capitalizes each letter of the word within the string.
-
-### Example
-```python
-str1 = "He's name is Dan. Dan is an honest man."
-print(str1.title())
-```
-#### Output:
-```
-He'S Name Is Dan. Dan Is An Honest Man.
-```
 ---
