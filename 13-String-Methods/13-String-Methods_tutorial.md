@@ -130,6 +130,45 @@ pYTHON IS A iNTERPRETED lANGUAGE
  ```
 ---
 
+## startswith() 
+The endswith() method checks if the string starts with a given value. If yes then return True, else return False. 
+
+### Example 
+```python
+str1 = "Python is a Interpreted Language" 
+print(str1.startswith("Python"))
+```
+#### Output:
+```
+True
+ ```
+---
+
+## endswith() 
+The endswith() method checks if the string ends with a given value. If yes then return True, else return False. 
+
+### Example 1 
+```python
+str1 = "Welcome to the Console !!!"
+print(str1.endswith("!!!"))
+```
+#### Output:
+```
+True
+```
+We can even also check for a value in-between the string by providing start and end index positions.
+
+### Example 2
+```python
+str1 = "Welcome to the Console !!!"
+print(str1.endswith("to", 4, 10))
+```
+#### Output:
+```
+True
+ ```
+---
+
 ## strip() 
 The strip() method removes any white spaces before and after the string.
 
@@ -258,7 +297,21 @@ print(countStr)
 4
 ```
 ---
- 
+
+## startswith() 
+The endswith() method checks if the string starts with a given value. If yes then return True, else return False. 
+
+### Example 
+```python
+str1 = "Python is a Interpreted Language" 
+print(str1.startswith("Python"))
+```
+#### Output:
+```
+True
+ ```
+---
+
 ## endswith() 
 The endswith() method checks if the string ends with a given value. If yes then return True, else return False. 
 
