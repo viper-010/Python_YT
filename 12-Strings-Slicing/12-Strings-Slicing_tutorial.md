@@ -28,7 +28,7 @@ Apple
 i
 ```
 
-Note: This method of specifying the start and end index to specify a part of a string is called slicing. 
+Note: This method of specifying the start and end index to specify a part of a string is called **slicing**. 
 
 ---
 
