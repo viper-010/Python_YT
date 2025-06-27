@@ -14,8 +14,8 @@ print(fruit[-4:-2]) # taken as [1:3]
 
 # Quick Quiz:
 nm = "Harry"
-# reverse flow = 01234
-# flow = -5-4-3-2-1
+# flow = 01234
+# reverse flow = -5-4-3-2-1
 print(nm[-4:-2])
 
 
