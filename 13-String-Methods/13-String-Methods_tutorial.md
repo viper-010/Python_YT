@@ -1,5 +1,6 @@
 # String methods
 Python provides a set of built-in methods that we can use to alter and modify the strings.
+- Strings are immutable
 
 ---
 ## upper() 
