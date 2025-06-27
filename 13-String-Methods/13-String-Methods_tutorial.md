@@ -45,6 +45,20 @@ True
  ```
 ---
 
+## islower() 
+The islower() method returns True if all the characters in the string are lower case, else it returns False. 
+
+### Example
+```python
+str1 = "hello world"
+print(str1.islower())
+```
+#### Output:
+```
+True
+ ```
+---
+
 ## strip() 
 The strip() method removes any white spaces before and after the string.
 
