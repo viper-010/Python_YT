@@ -31,6 +31,20 @@ abcdefghij
  ```
 ---
 
+## title() 
+The title() method capitalizes each letter of the word within the string.
+
+### Example
+```python
+str1 = "He's name is Dan. Dan is an honest man."
+print(str1.title())
+```
+#### Output:
+```
+He'S Name Is Dan. Dan Is An Honest Man.
+```
+---
+
 ## isupper() 
 The isupper() method returns True if all the characters in the string are upper case, else it returns False. 
 
@@ -56,6 +70,30 @@ print(str1.islower())
 #### Output:
 ```
 True
+ ```
+---
+
+## istitle() 
+The istitile() returns True only if the first letter of each word of the string is capitalized, else it returns False.
+
+### Example 1
+```python
+str1 = "World Health Organization" 
+print(str1.istitle())
+```
+#### Output:
+```
+True
+ ```
+
+### Example 2
+```python
+str2 = "To kill a Mocking bird"
+print(str2.istitle())
+```
+#### Output:
+```
+False
  ```
 ---
 
