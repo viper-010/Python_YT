@@ -84,7 +84,6 @@ print(str2.split(" "))      #Splits the string at the whitespace " ".
 #### Output:
 ```
 ['Silver', 'Spoon']
-There are various other string methods that we can use to modify our strings.
 ```
 ---
 
