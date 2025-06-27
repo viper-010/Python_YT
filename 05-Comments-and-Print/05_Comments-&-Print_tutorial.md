@@ -143,7 +143,7 @@ Name: Rohan 25
 ### 2. sep:
 - Separator between multiple objects
 - Default is a space ' '
-- Specify how to separate the objects, if there is more than one. Default is ' '
+- Specify how to separate the objects, if there is more than one.
 
 #### Example 1 : Default
 ```python
