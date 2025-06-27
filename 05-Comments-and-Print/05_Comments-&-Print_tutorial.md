@@ -145,7 +145,7 @@ Name: Rohan 25
 - Default is a space ' '
 - Specify how to separate the objects, if there is more than one. Default is ' '
 
-#### Example 1
+#### Example 1 : Default
 ```python
 print("Rohan","TA")
 ```
@@ -172,11 +172,13 @@ Rohan-TA
 #### Example 3
 ```python
 print("A", "B", "C", sep="")
+print("A", "B", "C", sep='')
 ```
 
 Output: 
 
 ```markup
+ABC
 ABC
 ```
 ---
