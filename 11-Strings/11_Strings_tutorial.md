@@ -19,7 +19,8 @@ We will definitely use single quotes for our convenience
 ```python
 print('He said, "I want to eat an apple".')
 
-**other ways**
+other ways:
+
 print('He said, \"I want to eat an apple\".')
 print('''He said, "I want to eat an apple".''')
 print("""He said, "I want to eat an apple".""")
