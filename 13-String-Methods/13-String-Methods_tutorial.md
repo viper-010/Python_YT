@@ -97,6 +97,25 @@ False
  ```
 ---
 
+## capitalize() 
+The capitalize() method turns only the first character of the string to uppercase and the rest other characters of the string are turned to lowercase. The string has no effect if the first character is already uppercase.
+
+### Example
+```python
+str1 = "hello"
+capStr1 = str1.capitalize()
+print(capStr1)
+str2 = "hello WorlD"
+capStr2 = str2.capitalize()
+print(capStr2)
+```
+#### Output:
+```
+Hello
+Hello world
+```
+---
+
 ## strip() 
 The strip() method removes any white spaces before and after the string.
 
@@ -170,6 +189,20 @@ print(capStr2)
 Hello
 Hello world
 ```
+---
+
+## swapcase() 
+The swapcase() method changes the character casing of the string. Upper case are converted to lower case and lower case to upper case.
+
+### Example
+```python
+str1 = "Python is a Interpreted Language" 
+print(str1.swapcase())
+```
+#### Output:
+```
+pYTHON IS A iNTERPRETED lANGUAGE
+ ```
 ---
 
 ## center() 
