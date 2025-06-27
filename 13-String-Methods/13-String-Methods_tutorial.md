@@ -116,6 +116,20 @@ Hello world
 ```
 ---
 
+## swapcase() 
+The swapcase() method changes the character casing of the string. Upper case are converted to lower case and lower case to upper case.
+
+### Example
+```python
+str1 = "Python is a Interpreted Language" 
+print(str1.swapcase())
+```
+#### Output:
+```
+pYTHON IS A iNTERPRETED lANGUAGE
+ ```
+---
+
 ## strip() 
 The strip() method removes any white spaces before and after the string.
 
