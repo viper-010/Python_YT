@@ -14,7 +14,7 @@ Mango is a 5 letter word.
 ---
 
 ## String as an array
-A string is essentially a sequence of characters also called an array. Thus we can access the elements of this array. 
+A string is essentially a sequence of characters also called an **array**. Thus we can access the elements of this array. 
 
 ### Example
 ```python
