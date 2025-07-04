@@ -184,7 +184,7 @@ Silver Spoon
 ---
 
 ## rstrip() 
-the rstrip() removes any trailing characters.
+the rstrip() removes any trailing characters (ending).
 
 ### Example
 ```python
