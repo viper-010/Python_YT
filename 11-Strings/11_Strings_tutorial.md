@@ -7,8 +7,9 @@ name = "Harry"
 print("Hello, " + name)
 ```
 #### Output:
+```
 Hello, Harry
-
+```
 Note: It does not matter whether you enclose your strings in single or double quotes, the output remains the same. 
 
 Sometimes, the user might need to put quotation marks in between the strings. Example, consider the sentence: He said, “I want to eat an apple”.
