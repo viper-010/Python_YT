@@ -56,7 +56,7 @@ Example: If your code uses import pandas, then pandas is a dependency.
 ---
 
 ## What is an Environment Manager?
-- An environment manager helps you:
+ An environment manager helps you:
 - Create isolated environments for each project.
 - Use different versions of packages across projects.
 - Prevent dependency conflicts.
