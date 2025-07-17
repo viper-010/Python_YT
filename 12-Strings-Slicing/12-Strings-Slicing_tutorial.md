@@ -40,6 +40,7 @@ print(pie[5:])      #Slicing till End
 print(pie[2:6])     #Slicing in between
 print(pie[-8:])     #Slicing using negative index
                     # pie[8-len(pie):]
+                    # whenever the -ve index is ther take help of len
 ```
 #### Output:
 ```
