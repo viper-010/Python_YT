@@ -1,6 +1,6 @@
 fruit = "Mango"
-# flow  =  01234
-# reverse flow = -5-4-3-2-1
+       # flow  =   0  1  2  3  4
+# reverse flow =  -5 -4 -3 -2 -1
 mangoLen = len(fruit)
 print(mangoLen) # 5
 print(fruit[0:4]) # including 0 but not 4
