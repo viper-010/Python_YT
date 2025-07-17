@@ -7,9 +7,6 @@ Programming is a way for us to tell computers what to do. A computer is a very d
 If I ask you to calculate `5 + 6`, you will immediately say 11.  
 How about `23453453 × 56456`?
 
-You will start searching for a calculator or jump to a new tab to calculate it.  
-This **100 Days of Code** series will help you learn Python from the beginning to the end. We will start from 0, and by the time we end this course, I promise you will be a job-ready Python developer!
-
 ---
 
 ## What is Python?
