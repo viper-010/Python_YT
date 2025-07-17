@@ -105,10 +105,17 @@ p is greater than 5.
 
 - An example of a character that cannot be directly used in a string is a double quote inside a string that is surrounded by double quotes:
 
+#### Example
 ```python
 print("This doesnt "execute")
 print("This will \" execute")
 ```
+
+Output: 
+```
+This will "execute"
+```
+
 --- 
 
 ## More on Print statement
