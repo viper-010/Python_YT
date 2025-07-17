@@ -23,6 +23,7 @@ print('He said, "I want to eat an apple".')
 other ways:
 
 print('He said, \"I want to eat an apple\".')
+print("He said, \"I want to eat an apple\".")
 print('''He said, "I want to eat an apple".''')
 print("""He said, "I want to eat an apple".""")
 ```
