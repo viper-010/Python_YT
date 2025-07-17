@@ -82,7 +82,7 @@ Output:
     
 
 ### Dict:
-A dictionary is an unordered collection of data containing a key:value pair. The key:value pairs are enclosed within curly brackets.Dict's are mutable and can be modified after creation.
+A dictionary is an unordered collection of data containing a key:value pair. The key:value pairs are enclosed within curly brackets. Dict's are mutable and can be modified after creation.
 
 **Example:**
 
