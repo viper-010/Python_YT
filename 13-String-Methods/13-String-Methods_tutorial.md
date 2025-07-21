@@ -184,7 +184,7 @@ True
 ## strip() 
 The strip() method removes any white spaces before and after the string.
 
-### Example
+### Example 1
 ```python
 str2 = " Silver Spoon "
 print(str2.strip)
@@ -192,7 +192,19 @@ print(str2.strip)
 #### Output:
 ```
 Silver Spoon
-``` 
+```
+
+### Example 2
+```python
+text = "-.,.Hello, World-.,."
+# Removes any leading/trailing hyphens, commas, or periods
+cleaned_text = text.strip(".,")
+print(cleaned_text)
+```
+#### Output:
+```
+-.,.Hello, World-
+```
 ---
 
 ## rstrip() 
