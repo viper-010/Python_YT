@@ -155,7 +155,7 @@ print(str1.startswith("to", 8))
 ```
 True
 ```
-
+---
 ## endswith() 
 The endswith() method checks if the string ends with a given value. If yes then return True, else return False. 
 
