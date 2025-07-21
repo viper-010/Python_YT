@@ -241,8 +241,6 @@ print(cleaned_filename)
 ```
 ### Output:
 ```
-'   Hello, World!'
-```
 document.txt
 ```
 ---
