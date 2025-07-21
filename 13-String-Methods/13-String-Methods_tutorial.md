@@ -424,9 +424,10 @@ False
 ---
 
 ## isspace() 
-The isspace() method returns True only and only if the string contains white spaces, else returns False.
+- The isspace() method returns True only and only if the string contains white spaces, else returns False.
+- Whitespace characters include spaces, tabs (\t), and newlines (\n).
 
-### Example
+### Example 1
 ```python
 str1 = "        "       #using Spacebar
 print(str1.isspace())
@@ -437,5 +438,37 @@ print(str2.isspace())
 ```
 True
 True
+ ```
+
+### Example 2
+```python
+# A string with only spaces
+str1 = "   "
+print(str1.isspace())
+
+# A string with spaces, a tab, and a newline
+str2 = " \t \n "
+print(str2.isspace())
+```
+#### Output:
+```
+True
+True
+ ```
+
+### Example 3
+```python
+# Contains letters
+str3 = "Hello World"
+print(str3.isspace())
+
+# Is an empty string
+str4 = ""
+print(str4.isspace())
+```
+#### Output:
+```
+False
+False
  ```
 ---
