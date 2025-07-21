@@ -219,7 +219,9 @@ print(str3.rstrip("!"))
 ```
 Hello
  ```
--When used without an argument, rstrip() removes spaces, tabs (\t), and newlines (\n) from the end of a string. This is useful for cleaning the right side of data.
+
+- When used without an argument, rstrip() removes spaces, tabs (\t), and newlines (\n) from the end of a string.
+- This is useful for cleaning the right side of data.
 
 ### Example 2
 ```python
