@@ -144,12 +144,13 @@ print(str1.startswith("Python"))
 ```
 True
  ```
+
 ### Example 2
 ```python
 str1 = "Welcome to the Console !!!"
 # Checks if the slice "to the Console !!!" starts with "to"
 print(str1.startswith("to", 8))
----
+```
 #### Output:
 ```
 True
