@@ -135,7 +135,7 @@ pYTHON IS A iNTERPRETED lANGUAGE
 ## startswith() 
 The endswith() method checks if the string starts with a given value. If yes then return True, else return False. 
 
-### Example 
+### Example 1
 ```python
 str1 = "Python is a Interpreted Language" 
 print(str1.startswith("Python"))
@@ -144,7 +144,16 @@ print(str1.startswith("Python"))
 ```
 True
  ```
+### Example 2
+```python
+str1 = "Welcome to the Console !!!"
+# Checks if the slice "to the Console !!!" starts with "to"
+print(str1.startswith("to", 8))
 ---
+#### Output:
+```
+True
+```
 
 ## endswith() 
 The endswith() method checks if the string ends with a given value. If yes then return True, else return False. 
