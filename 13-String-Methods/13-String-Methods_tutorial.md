@@ -210,7 +210,7 @@ print(cleaned_text)
 ## rstrip() 
 the rstrip() removes any trailing characters (ending).
 
-### Example
+### Example 1
 ```python
 str3 = "Hello !!!"
 print(str3.rstrip("!"))
@@ -219,6 +219,32 @@ print(str3.rstrip("!"))
 ```
 Hello
  ```
+
+### Example 2
+```python
+text = "   Hello, World!   \n"
+cleaned_text = text.rstrip()
+# The single quotes show where the string now ends
+print(f"'{cleaned_text}'")
+```
+### Output:
+```
+'   Hello, World!'
+```
+
+### Example 3
+```python
+# Example: Stripping a file extension and extra characters
+filename = "document.txt.bak"
+cleaned_filename = filename.rstrip(".bak")
+print(cleaned_filename)
+```
+### Output:
+```
+'   Hello, World!'
+```
+document.txt
+```
 ---
 
 ## replace() 
