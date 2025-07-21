@@ -1,9 +1,8 @@
 # String methods
 Python provides a set of built-in methods that we can use to alter and modify the strings.
-- Strings are immutable
+- Strings are immutable.
 - That's correct. Strings in Python are immutable, which means once a string is created, its contents cannot be changed in place.
-What "Immutable" Means in Practice
-If you have a string and you want to modify it, Python doesn't alter the original string. Instead, it creates a completely new string with the changes
+- "Immutable" Means in Practice, If you have a string and you want to modify it, Python doesn't alter the original string. Instead, it creates a completely new string with the changes.
 
 ---
 ## upper() 
