@@ -397,18 +397,29 @@ True
 ---
 
 ## isprintable() 
-The isprintable() method returns True if all the values within the given string are printable, if not, then return False.
-Printable characters include letters, numbers, punctuation, and spaces. 
-Non-printable characters are control characters like newlines (\n) and tabs (\t).
+- The isprintable() method returns True if all the values within the given string are printable, if not, then return False.
+- Printable characters include letters, numbers, punctuation, and spaces. 
+- Non-printable characters are control characters like newlines (\n) and tabs (\t).
 
-### Example 
+### Example 1
 ```python
-str1 = "We wish you a Merry Christmas"
+str1 = "Hello, World! 123"
 print(str1.isprintable())
 ```
 #### Output:
 ```
 True
+ ```
+
+### Example 2
+```python
+# The newline character \n is not printable
+str2 = "Hello, World!\n"
+print(str2.isprintable())
+```
+#### Output:
+```
+False
  ```
 ---
 
