@@ -398,6 +398,8 @@ True
 
 ## isprintable() 
 The isprintable() method returns True if all the values within the given string are printable, if not, then return False.
+Printable characters include letters, numbers, punctuation, and spaces. 
+Non-printable characters are control characters like newlines (\n) and tabs (\t).
 
 ### Example 
 ```python
