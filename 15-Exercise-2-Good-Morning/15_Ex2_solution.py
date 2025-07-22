@@ -12,5 +12,5 @@ elif(hour>=17 and hour<=23):
   print("Good Night Sir!")
 
 
-# Python would compare them lexicographically (alphabetically) if not coverted into int as like here,
-which can lead to incorrect results.
+- Python would compare them lexicographically (alphabetically) if not coverted into int as like here,
+  which can lead to incorrect results.
