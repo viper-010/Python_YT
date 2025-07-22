@@ -30,7 +30,7 @@ def function_name(parameters):
  - Rules to naming function are similar to that of naming variables.
  - Any statements and other code within the function should be indented.
  - **pass**:
-   * When you're designing your code structure and plan to add logic late
+   * When you're designing your code structure and plan to add logic later
    * This function does nothing for now, but won’t cause a syntax error
 ---
 
