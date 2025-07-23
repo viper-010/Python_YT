@@ -24,7 +24,7 @@ Hello, Amy Jhon Whatson
 ---
 
 ## Keyword arguments
-We can provide arguments with key = value, this way the interpreter recognizes the arguments by the parameter name. Hence, the the order in which the arguments are passed does not matter.
+We can provide arguments with key = value, this way the interpreter recognizes the arguments by the parameter name. Hence,the order in which the arguments are passed does not matter.
 
 ### Example
 ```python
@@ -89,7 +89,7 @@ Hello, James Buchanan Barnes
  ```
 
 ## Keyword Arbitrary Arguments:
-While creating a function, pass a * before the parameter name while defining the function. The function accesses the arguments by processing them in the form of dictionary.
+While creating a function, pass a ** before the parameter name while defining the function. The function accesses the arguments by processing them in the form of dictionary.
 
 ### Example
 ```python
