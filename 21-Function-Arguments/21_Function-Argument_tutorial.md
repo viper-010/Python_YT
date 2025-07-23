@@ -3,8 +3,9 @@ There are four types of arguments that we can provide in a function:
 
 - Default Arguments
 - Keyword Arguments
-- Variable length Arguments
 - Required Arguments
+- Variable length Arguments
+
 
 ---
 ## Default arguments
