@@ -16,7 +16,6 @@ print(num)
 ```
 ['blue', 'green', 'indigo', 'voilet']\
 [1, 1, 2, 2, 2, 3, 4, 5, 6, 7, 8, 9]
- 
 ```
 What if you want to print the list in descending order?\
 We must give reverse=True as a parameter in the sort method.
@@ -37,9 +36,9 @@ print(num)
 [9, 8, 7, 6, 5, 4, 3, 2, 2, 2, 1, 1]
  ```
 
-The reverse parameter is set to False by default.
+- The reverse parameter is set to False by default.
 
-Note: Do not mistake the reverse parameter with the reverse method.
+**Note**: Do not mistake the reverse parameter with the reverse method.
 
 ---
 ## reverse()
@@ -161,9 +160,8 @@ print(colors)
 #### Output:
 ```
 ['voilet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red']
----
-
  ```
+---
 ## Concatenating two lists
 You can simply concatenate two lists to join two lists.
 
