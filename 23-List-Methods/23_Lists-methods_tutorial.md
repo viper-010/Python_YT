@@ -1,4 +1,5 @@
 # List Methods
+---
 ## list.sort()
 This method sorts the list in ascending order. The original list is updated
 ### Example 1
