@@ -143,7 +143,7 @@ print(colors)
 ## append():
 This method appends items to the end of the existing list.
 
-### Example
+### Example 1
 ```python
 colors = ["voilet", "indigo", "blue"]
 colors.append("green")
@@ -153,6 +153,21 @@ print(colors)
 ```
 ['voilet', 'indigo', 'blue', 'green']
  ```
+
+- If you try to append() a list of multiple items, the entire list itself will be added as a single, nested element
+- Adds its argument as a single element
+  
+### Example 2
+```python
+list_a = [1]
+list_a.append([2, 3, 4])
+print(f"Using append: {list_a}")
+```
+#### Output:
+```
+Using append: [1, [2, 3, 4]]
+```
+
 ---
 
 ## insert():
