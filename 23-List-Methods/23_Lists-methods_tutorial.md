@@ -98,17 +98,20 @@ print(num.count(2))
 ## copy()
 Returns copy of the list. This can be done to perform operations on the list without modifying the original list. 
 
-### Example
+### Example 1
 ```python
 colors = ["voilet", "green", "indigo", "blue"]
 newlist = colors.copy()
 print(colors)
+colors.append("red")
 print(newlist)
+print(colors)
 ```
 #### Output:
 ```
 ['voilet', 'green', 'indigo', 'blue']
 ['voilet', 'green', 'indigo', 'blue']
+['voilet', 'green', 'indigo', 'blue', 'red']
 ```
 ---
 
