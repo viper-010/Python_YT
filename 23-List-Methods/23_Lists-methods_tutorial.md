@@ -36,7 +36,7 @@ print(num)
 [9, 8, 7, 6, 5, 4, 3, 2, 2, 2, 1, 1]
  ```
 
-- The reverse parameter is set to False by default.
+- The reverse parameter is set to False by default, This is the exact same result you would get from just calling r.sort() with no arguments.
 
 **Note**: Do not mistake the reverse parameter with the reverse method.
 
