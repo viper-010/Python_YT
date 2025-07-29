@@ -151,3 +151,14 @@ print(animals[1:8:3])
 ```
 Here, jump index is 3. Hence it prints every 3rd element within given index.
 
+### Example 6: printing every alternate values from the backwards when the step index is -ve
+```python
+my_tuple = (10, 20, 30, 40, 50, 60)
+# Index:   0   1   2   3   4   5
+print(my_tuple[::-2])
+```
+#### Output:
+```
+(60, 40, 20)
+```
+- The sign of the step index is the most important factor that determines whether a slice moves forward or backward.
