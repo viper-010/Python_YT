@@ -13,6 +13,7 @@ print(l)
 # print(m)
 # print(l)
 # l.insert(1, 899)
+# print(l)
 # p = [0,900, 1000, 1100]
 # k = l + p
 # print(k)
