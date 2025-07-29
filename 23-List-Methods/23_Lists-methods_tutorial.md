@@ -154,7 +154,7 @@ print(colors)
 ['voilet', 'indigo', 'blue', 'green']
  ```
 
-- If you try to append() a list of multiple items, the entire list itself will be added as a single, nested element
+- If you try to append() a list of multiple items, the entire list itself will be added as a single nested element
 - Adds its argument as a single element
   
 ### Example 2
