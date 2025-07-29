@@ -118,11 +118,11 @@ print(colors)
 ['voilet', 'green', 'indigo', 'blue', 'red']
 ```
 
+### Example 2
 - What if we are not using copy()
 - In this program, newlist = colors does not create a new list. It just makes the variable newlist point to the exact same list object in memory as colors.
 - Because both variables refer to the same list, when you modify the list using one variable (like colors.append("red")), the change is visible through both.
   
-### Example 2
 ```python
 colors = ["voilet", "green", "indigo", "blue"]
 newlist = colors
