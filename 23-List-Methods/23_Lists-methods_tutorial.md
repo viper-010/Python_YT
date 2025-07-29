@@ -206,7 +206,7 @@ print(colors)
 ## extend():
 This method adds an entire list or any other collection datatype (set, tuple, dictionary) to the existing list.
 
-### Example
+### Example 1
 ```python
 #add a list to a list
 colors = ["voilet", "indigo", "blue"]
@@ -218,6 +218,20 @@ print(colors)
 ```
 ['voilet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red']
  ```
+
+- The extend() method iterates through an iterable and adds each of its elements.
+  
+### Example 2
+```python
+list_b = [1]
+list_b.extend([2, 3, 4])
+print(f"Using extend: {list_b}")
+```
+#### Output:
+```
+Using extend: [1, 2, 3, 4]
+```
+
 ---
 ## Concatenating two lists
 You can simply concatenate two lists to join two lists.
