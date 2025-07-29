@@ -240,9 +240,10 @@ You can simply concatenate two lists to join two lists.
 ```python
 colors = ["voilet", "indigo", "blue", "green"]
 colors2 = ["yellow", "orange", "red"]
-print(colors + colors2)
+colors3 = [1,3,5,7]
+print(colors + colors2 + colors3)
 ```
 #### Output:
 ```
-['voilet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red']
+['voilet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red', 1, 3, 5, 7]
 ```
