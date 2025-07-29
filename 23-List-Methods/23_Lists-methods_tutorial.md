@@ -2,6 +2,7 @@
 ---
 ## list.sort()
 This method sorts the list in ascending order. The original list is updated
+
 ### Example 1
 ```python
 colors = ["voilet", "indigo", "blue", "green"]
@@ -96,7 +97,10 @@ print(num.count(2))
 ---
 
 ## copy()
-Returns copy of the list. This can be done to perform operations on the list without modifying the original list. 
+- Returns copy of the list. This can be done to perform operations on the list without modifying the original list. 
+- The .copy() method creates a brand new, separate list in memory. It's a true copy.
+  
+- In this case, colors and newlist would be two completely independent lists. Modifying the original colors list would have no effect on newlist.
 
 ### Example 1
 ```python
@@ -115,6 +119,8 @@ print(colors)
 ```
 
 - What if we are not using copy()
+- In this program, newlist = colors does not create a new list. It just makes the variable newlist point to the exact same list object in memory as colors.
+- Because both variables refer to the same list, when you modify the list using one variable (like colors.append("red")), the change is visible through both.
   
 ### Example 2
 ```python
