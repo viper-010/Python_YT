@@ -113,6 +113,25 @@ print(colors)
 ['voilet', 'green', 'indigo', 'blue']
 ['voilet', 'green', 'indigo', 'blue', 'red']
 ```
+
+- What if we are not using copy()
+  
+### Example 2
+```python
+colors = ["voilet", "green", "indigo", "blue"]
+newlist = colors
+print(colors)
+colors.append("red")
+print(newlist)
+print(colors)
+```
+#### Output:
+```
+['voilet', 'green', 'indigo', 'blue']
+['voilet', 'green', 'indigo', 'blue', 'red']
+['voilet', 'green', 'indigo', 'blue', 'red']
+```
+  
 ---
 
 ## append():
