@@ -168,6 +168,19 @@ print(f"Using append: {list_a}")
 Using append: [1, [2, 3, 4]]
 ```
 
+- The single argument you are passing to append() is the list [2]
+- Doesn't look inside the argument you give it. It just takes the entire object
+  
+### Example 3
+```python
+list_b = [1]
+list_b.append([2])
+print(f"Using extend: {list_b}")
+```
+#### Output:
+```
+Using append: [1, [2]]
+```
 ---
 
 ## insert():
