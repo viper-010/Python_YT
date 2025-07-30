@@ -37,6 +37,8 @@ print(type(tup),tup)
 ```
 <class 'int'> 1
 ```
+- When Python sees parentheses around a single item like (1), it treats them as standard mathematical parentheses for grouping expressions. It doesn't create a tuple.
+- Therefore, tup is simply assigned the integer 1.
 
 ### Example 2
 ```python
@@ -47,15 +49,8 @@ print(type(tup),tup)
 ```
 <class 'tuple'> (1,)
 ```
-
-- When Python sees parentheses around a single item like (1), it treats them as standard mathematical parentheses for grouping expressions. It doesn't create a tuple.
-
-Therefore, tup is simply assigned the integer 1.
-
-
 - To create a tuple with only one element, you must include a trailing comma. This comma is the special syntax that tells Python you want a tuple, not just a grouped value.
-
-Therefore, tup is assigned a tuple containing the single element 1.
+- Therefore, tup is assigned a tuple containing the single element 1.
 
 **The Reason: Ambiguous Parentheses**
 - The problem exists only for tuples because the parentheses () are also used for grouping mathematical expressions. Python needed a way to distinguish between (1) (the number 1) and (1,) (a tuple containing the number 1).
