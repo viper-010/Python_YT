@@ -57,5 +57,7 @@ Therefore, tup is simply assigned the integer 1.
 
 Therefore, tup is assigned a tuple containing the single element 1.
 
+**The Reason: Ambiguous Parentheses**
+The problem exists only for tuples because the parentheses () are also used for grouping mathematical expressions. Python needed a way to distinguish between (1) (the number 1) and (1,) (a tuple containing the number 1).
 
 
