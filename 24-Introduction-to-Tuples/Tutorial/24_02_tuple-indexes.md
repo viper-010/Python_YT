@@ -98,8 +98,8 @@ print(animals[-7:-2])   #using negative indexes
 ('mouse', 'pig', 'horse', 'donkey')
 ('bat', 'mouse', 'pig', 'horse', 'donkey')
 ```
+****Note****: The element of the end index provided will not be included.
 Here, we provide index of the element from where we want to start and the index of the element till which we want to print the values. 
-- ****Note****: The element of the end index provided will not be included.
 
 ### Example 2: Printing all element from a given index till the end
 ```python
@@ -138,7 +138,7 @@ print(animals[-8:-1:2]) #using negative indexes
 ('cat', 'bat', 'pig', 'donkey', 'cow')
 ('dog', 'mouse', 'horse', 'goat')
 ```
-- ****Note****: Here, we have not provided start and end index, which means all the values will be considered.
+****Note****: Here, we have not provided start and end index, which means all the values will be considered.
 But as we have provided a jump index of 2 only alternate values will be printed. 
 
 ### Example 5: printing every 3rd consecutive within given range
