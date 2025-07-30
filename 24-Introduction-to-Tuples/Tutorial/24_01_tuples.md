@@ -48,21 +48,14 @@ print(type(tup),tup)
 <class 'tuple'> (1,)
 ```
 
-
-tup = (1) -> An Integer
-When Python sees parentheses around a single item like (1), it treats them as standard mathematical parentheses for grouping expressions. It doesn't create a tuple.
+- When Python sees parentheses around a single item like (1), it treats them as standard mathematical parentheses for grouping expressions. It doesn't create a tuple.
 
 Therefore, tup is simply assigned the integer 1.
 
-Output:
 
-<class 'int'> 1
-tup = (1,) -> A Tuple
-To create a tuple with only one element, you must include a trailing comma. This comma is the special syntax that tells Python you want a tuple, not just a grouped value.
+- To create a tuple with only one element, you must include a trailing comma. This comma is the special syntax that tells Python you want a tuple, not just a grouped value.
 
 Therefore, tup is assigned a tuple containing the single element 1.
 
-Output:
 
-<class 'tuple'> (1,)
 
