@@ -85,7 +85,7 @@ You can print a range of tuple items by specifying where do you want to start, w
 ```python
 Tuple[start : end : jumpIndex]
 ```
-Note: jump Index is optional. We will see this in given examples.
+****Note****: jump Index is optional. We will see this in given examples.
 
 ### Example 1: Printing elements within a particular range
 ```python
