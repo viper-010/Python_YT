@@ -125,7 +125,7 @@ print(animals[:-3])     #using negative indexes
 ('cat', 'dog', 'bat', 'mouse', 'pig', 'horse')
 ('cat', 'dog', 'bat', 'mouse', 'pig', 'horse')
 ```
-When no start index is provided, the interpreter prints all the values from start up to the end index provided. 
+****Note****: When no start index is provided, the interpreter prints all the values from start up to the end index provided. 
 
 ### Example 4: Print alternate values
 ```python
@@ -138,7 +138,8 @@ print(animals[-8:-1:2]) #using negative indexes
 ('cat', 'bat', 'pig', 'donkey', 'cow')
 ('dog', 'mouse', 'horse', 'goat')
 ```
-Here, we have not provided start and end index, which means all the values will be considered. But as we have provided a jump index of 2 only alternate values will be printed. 
+****Note****: Here, we have not provided start and end index, which means all the values will be considered.
+  But as we have provided a jump index of 2 only alternate values will be printed. 
 
 ### Example 5: printing every 3rd consecutive within given range
 ```python
