@@ -26,7 +26,7 @@ The Index() method returns the first occurrence of the given element from the tu
 ```python
 tuple.index(element, start, end)
 ```
-Note: This method raises a ValueError if the element is not found in the tuple.
+**Note**: This method raises a ValueError if the element is not found in the tuple.
 
 ### Example
 ```python
