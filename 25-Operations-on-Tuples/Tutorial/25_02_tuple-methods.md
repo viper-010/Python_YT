@@ -1,6 +1,6 @@
 # Tuple methods
 As tuple is immutable type of collection of elements it has limited built in methods.
-They are explained below-
+They are explained below
 
 ---
 ## count() Method
