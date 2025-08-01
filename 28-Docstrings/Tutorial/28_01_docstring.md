@@ -79,3 +79,12 @@ print(square.__doc__)
 ```
 #### Output:
 Takes in a number n, returns the square of n
+
+### The Name Tag Analogy
+Think of a function in Python as an object, much like a person is an object. A person can have information "associated with" them, like a name on a name tag.
+
+- The Object: The square function.
+
+- The Associated Information: The docstring '''Takes in a number n...'''.
+
+- The "Name Tag": The special attribute __doc__.
