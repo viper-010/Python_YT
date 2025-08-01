@@ -14,7 +14,7 @@ def factorial(n):
     return n * factorial(n - 1)
 
 
-print(factorial(5))
+print("Factorial: ",factorial(5))
 
 
 # Fibonacci series
@@ -40,6 +40,8 @@ def fibonacci(n):
     else :
         return fibonacci(n - 1) + fibonacci(n - 2)
 
-print(fibonacci(6))
+print("Fibonacci: ",fibonacci(6))
+
+
 
 
