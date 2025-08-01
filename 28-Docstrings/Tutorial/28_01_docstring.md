@@ -88,3 +88,8 @@ Think of a function in Python as an object, much like a person is an object. A p
 - The ****Associated Information****: The docstring '''Takes in a number n...'''.
 
 - The ****Name Tag****": The special attribute __doc__.
+
+---
+
+### The "Dunder" Naming Convention
+In Python, names that start and end with double underscores are called "****dunder****" names (from double underscore).
