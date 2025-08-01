@@ -9,3 +9,4 @@ print(square.__doc__)
 
 #A module docstring must be a string literal placed as the very first statement in the file, before any imports or code.
 print(__doc__)
+
