@@ -35,7 +35,7 @@ print(cities)
 ## II. intersection and intersection_update() :
 The intersection() and intersection_update() methods prints only items that are similar to both the sets. The intersection() method returns a new set whereas intersection_update() method updates into the existing set from another set.
 
-### Example 1 - interaction(): 
+### Example 1 - intersection(): 
 #### common between them, original set remains same 
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
