@@ -49,7 +49,7 @@ print(cities3)
  ```
 
 ### Example 2 - intersection_update(): 
-#### updates the one with common, modifies the original set 
+****updates the one with common, modifies the original set**** (only common remians) 
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
