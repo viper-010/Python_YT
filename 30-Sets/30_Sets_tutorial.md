@@ -77,7 +77,7 @@ You can access items of set using a for loop.
 
 ### Example
 ```python
-info = {"Carla", 19, False, 5.9}
+info = {"Carla", 19, 5.9, False, 5.9}
 for item in info:
     print(item)
   ```
