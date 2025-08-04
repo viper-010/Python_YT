@@ -13,6 +13,7 @@ print(info)
 Here we see that the items of set occur in random order and hence they cannot be accessed using index numbers. Also sets do not allow duplicate values.
 
 ### Example 2
+- Can change a set after it's created by adding or removing elements.
 ```python
 my_set = {1, 2, 3}
 
@@ -31,6 +32,7 @@ print(my_set)
 ```
 
 ### Example 3
+- Cannot place a mutable object, like a list or a dictionary, inside a set. The items must be of an immutable type (like numbers, strings, or tuples).
 ```python
 # This will cause an error because a list is mutable
 my_set = {1, 2}
