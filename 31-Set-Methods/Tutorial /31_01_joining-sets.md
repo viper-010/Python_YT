@@ -63,6 +63,10 @@ print(cities)
 ---
 
 ## III. symmetric_difference and symmetric_difference_update() :
+- ⊕ or △ : "A Δ B" is read as "A delta B" or "the symmetric difference of sets A and B".
+- A Δ B = (A - B) U (B - A)
+- A Δ B = (A U B) - (A ∩ B)
+
 The symmetric_difference() and symmetric_difference_update() methods prints only items that are not similar to both the sets. The symmetric_difference() method returns a new set whereas symmetric_difference_update() method updates into the existing set from another set.
 
 ### Example 1 - symmetric_difference(): 
