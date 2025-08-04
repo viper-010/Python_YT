@@ -44,7 +44,7 @@ Traceback (most recent call last):
     ~~~~~~~~~~^^^^^^^^
 TypeError: unhashable type: 'list'
  ```
-
+---
  ### Quick Quiz : Try to create an empty set. 
  - Check using the type() function whether the type of your variable is a set
 
