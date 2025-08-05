@@ -99,7 +99,7 @@ print(set_A)
 ```
 ---
 
-# remove()/discard()
+## remove()/discard()
 We can use remove() and discard() methods to remove items form list.
 
 **remove():** 
