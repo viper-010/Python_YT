@@ -2,12 +2,12 @@
 Sets in python more or less work in the same way as sets in mathematics. We can perform operations like union and intersection on the sets just like in mathematics.
 
 - Any set method that ends with _update will:
-  1.Modify the original set in-place.
-  2.Returns:> None.
+  - 1.Modify the original set in-place.
+  - 2.Returns:> None.
   
 - The versions without _update will:
-  1.Leave the original set unchanged.
-  2.Return a new set with the result.
+  - 1.Leave the original set unchanged.
+  - 2.Return a new set with the result.
 
 ---
 ## I. union() and update() :
