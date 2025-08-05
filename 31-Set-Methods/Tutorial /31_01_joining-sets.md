@@ -119,9 +119,12 @@ print(cities)
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Seoul", "Kabul", "Delhi"}
-print(cities.difference(cities2))
+cities3 = cities.difference(cities2)
+print(cities3)
+print(cities)
 ```
 #### Output:
 ```
 {'Tokyo', 'Berlin', 'Madrid'}
+{'Madrid', 'Delhi', 'Tokyo', 'Berlin'}
 ```
