@@ -25,7 +25,7 @@ There are a few methods that we can use to remove items from dictionary.
 ---
 ## clear():
 The clear() method removes all the items from the list. 
-#### Example
+### Example
 ```python
 info = {'name':'Karan', 'age':19, 'eligible':True}
 info.clear()
@@ -38,7 +38,8 @@ print(info)
 ---
 ## pop():
 The pop() method removes the key-value pair whose key is passed as a parameter.
-#### Example:
+
+### Example 1:
 ```python
 info = {'name':'Karan', 'age':19, 'eligible':True}
 info.pop('eligible')
@@ -48,6 +49,32 @@ print(info)
 ```
 {'name': 'Karan', 'age': 19}
  ```
+
+### Example 2:
+```python
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+# pop() removes the item and gives you its value
+removed_model = car.pop("model")
+
+print(f"The removed model was: {removed_model}")
+print(f"The dictionary now: {car}")
+
+# Safely "pop" a key that doesn't exist by providing a default
+color = car.pop("color", "Not Found")
+print(f"The color was: {color}")
+```
+#### Output:
+```
+The removed model was: Mustang
+The dictionary now: {'brand': 'Ford', 'year': 1964}
+The color was: Not Found
+ ```
+
 ---
 ## popitem(): 
 The popitem() method removes the last key-value pair from the dictionary.
