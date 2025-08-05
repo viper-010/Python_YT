@@ -106,10 +106,13 @@ cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Seoul", "Kabul", "Delhi"}
 cities3 = cities.difference(cities2)
 print(cities3)
+print(cities)
 ```
 #### Output:
 ```
 {'Tokyo', 'Madrid', 'Berlin'}
+
+{'Tokyo', 'Madrid', 'Delhi', 'Berlin'}
  ```
 
 ### Example 2 - difference_update(): 
