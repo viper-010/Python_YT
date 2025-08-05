@@ -115,7 +115,7 @@ print(cities)
  ```
 
 ### Example 2 - difference_update(): 
-#### A-B gives not in B i.e actual A, modifies set A
+#### A-B gives not in B i.e actual A, modifies set A. Does not gives a new set but returns : None.
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Seoul", "Kabul", "Delhi"}
