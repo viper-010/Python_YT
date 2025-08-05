@@ -71,7 +71,7 @@ print(cities)
 - **always expects an iterable** 
 - If you want to add more than one item, simply create another set or any other iterable object(list, tuple, dictionary), and use the update() method to add it into the existing set.
 
-### Example
+### Example 1
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Helsinki", "Warsaw", "Seoul"}
@@ -81,6 +81,21 @@ print(cities)
 #### Output:
 ```
 {'Seoul', 'Berlin', 'Delhi', 'Tokyo', 'Warsaw', 'Helsinki', 'Madrid'}
+```
+### Example 2
+```python
+set_A = {1, 2, 3}
+list_B = [3, 4, 5] # Note the duplicate '3'
+tuple_C = ('a', 'b')
+
+# Update set_A with all items from list_B and tuple_C
+set_A.update(list_B, tuple_C)
+
+print(set_A)
+```
+#### Output:
+```
+{1, 2, 3, 4, 5, 'a', 'b'}
 ```
 ---
 
