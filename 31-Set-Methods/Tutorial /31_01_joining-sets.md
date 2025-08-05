@@ -10,14 +10,14 @@ The union() and update() methods prints all items that are present in the two se
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
-cities3= cities.update(cities2)
+cities3= cities.union(cities2)
 print(cities3)
 print(cities)
 ```
 #### Output:
 ```
-None
-{'Kabul', 'Berlin', 'Seoul', 'Tokyo', 'Madrid', 'Delhi'}
+{'Delhi', 'Kabul', 'Seoul', 'Tokyo', 'Madrid', 'Berlin'}
+{'Delhi', 'Madrid', 'Berlin', 'Tokyo'}
  ```
 
 ### Example 2 - update():
@@ -32,7 +32,7 @@ print(cities)
 #### Output:
 ```
 None
-{'Tokyo', 'Seoul', 'Kabul', 'Madrid', 'Delhi', 'Berlin'}
+{'Delhi', 'Kabul', 'Tokyo', 'Seoul', 'Berlin', 'Madrid'}
 ```
 ---
 
