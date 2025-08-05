@@ -111,7 +111,6 @@ print(cities)
 #### Output:
 ```
 {'Tokyo', 'Madrid', 'Berlin'}
-
 {'Tokyo', 'Madrid', 'Delhi', 'Berlin'}
  ```
 
