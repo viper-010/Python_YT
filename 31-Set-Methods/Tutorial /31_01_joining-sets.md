@@ -5,7 +5,7 @@ Sets in python more or less work in the same way as sets in mathematics. We can 
   - 1. Modify the original set in-place.
   - 2. Returns:> None.
   
-- The versions *****without _update**** will:
+- The versions ****without _update**** will:
   - 1. Leave the original set unchanged.
   - 2. Return a new set with the result.
 
