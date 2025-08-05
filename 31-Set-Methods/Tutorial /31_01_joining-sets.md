@@ -10,12 +10,14 @@ The union() and update() methods prints all items that are present in the two se
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
-cities3 = cities.union(cities2)
+cities3= cities.update(cities2)
 print(cities3)
+print(cities)
 ```
 #### Output:
 ```
-{'Tokyo', 'Madrid', 'Kabul', 'Seoul', 'Berlin', 'Delhi'}
+None
+{'Kabul', 'Berlin', 'Seoul', 'Tokyo', 'Madrid', 'Delhi'}
  ```
 
 ### Example 2 - update():
@@ -23,12 +25,14 @@ print(cities3)
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
-cities.update(cities2)
+cities3= cities.update(cities2)
+print(cities3)
 print(cities)
 ```
 #### Output:
 ```
-{'Berlin', 'Madrid', 'Tokyo', 'Delhi', 'Kabul', 'Seoul'}
+None
+{'Tokyo', 'Seoul', 'Kabul', 'Madrid', 'Delhi', 'Berlin'}
 ```
 ---
 
@@ -42,10 +46,12 @@ cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
 cities3 = cities.intersection(cities2)
 print(cities3)
+print(cities)
 ``` 
 #### Output:
 ```
-{'Madrid', 'Tokyo'}
+{'Tokyo', 'Madrid'}
+{'Delhi', 'Berlin', 'Tokyo', 'Madrid'}
  ```
 
 ### Example 2 - intersection_update(): 
@@ -53,11 +59,13 @@ print(cities3)
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
-cities.intersection_update(cities2)
+cities3 = cities.intersection_update(cities2)
+print(cities3)
 print(cities)
 ```
 #### Output:
 ```
+None
 {'Tokyo', 'Madrid'}
 ```
 ---
@@ -76,10 +84,12 @@ cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
 cities3 = cities.symmetric_difference(cities2)
 print(cities3)
+print(cities)
 ```
 #### Output:
 ```
 {'Seoul', 'Kabul', 'Berlin', 'Delhi'}
+{'Tokyo', 'Berlin', 'Madrid', 'Delhi'}
  ```
 
 ### Example 2 - symmetric_difference_update(): 
@@ -87,12 +97,14 @@ print(cities3)
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
-cities.symmetric_difference_update(cities2)
+cities3 = cities.symmetric_difference_update(cities2)
+print(cities3)
 print(cities)
 ```
 #### Output:
 ```
-{'Kabul', 'Delhi', 'Berlin', 'Seoul'}
+None
+{'Seoul', 'Delhi', 'Berlin', 'Kabul'}
  ```
 ---
 
@@ -115,16 +127,16 @@ print(cities)
  ```
 
 ### Example 2 - difference_update(): 
-#### A-B gives not in B i.e actual A, modifies set A. Does not gives a new set but returns : None.
+#### A-B gives not in B i.e actual A, modifies set A. Does not gives a new set but returns:> None.
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Seoul", "Kabul", "Delhi"}
-cities3 = cities.difference(cities2)
+cities3 = cities.difference_update(cities2)
 print(cities3)
 print(cities)
 ```
 #### Output:
 ```
-{'Tokyo', 'Berlin', 'Madrid'}
-{'Madrid', 'Delhi', 'Tokyo', 'Berlin'}
+None
+{'Tokyo', 'Madrid', 'Berlin'}
 ```
