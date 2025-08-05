@@ -1,6 +1,14 @@
 # Joining Sets
 Sets in python more or less work in the same way as sets in mathematics. We can perform operations like union and intersection on the sets just like in mathematics.
 
+-Any set method that ends with _update will:
+Modify the original set in-place.
+Returns:> None.
+-The versions without _update will:
+
+- Leave the original set unchanged.
+Return a new set with the result.
+
 ---
 ## I. union() and update() :
 The union() and update() methods prints all items that are present in the two sets. The union() method returns a new set whereas update() method adds item into the existing set from another set.
@@ -127,7 +135,7 @@ print(cities)
  ```
 
 ### Example 2 - difference_update(): 
-#### A-B gives not in B i.e actual A, modifies set A. Does not gives a new set but returns:> None.
+#### A-B gives not in B i.e actual A, modifies set A.
 ```python
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Seoul", "Kabul", "Delhi"}
