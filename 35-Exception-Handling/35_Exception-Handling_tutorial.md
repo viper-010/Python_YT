@@ -32,4 +32,3 @@ Enter an integer: 6.022
 Number entered is not an integer.
 ```
 
-## [Next Lesson>>](https://replit.com/@codewithharry/37-Day37-Finally-keyword)
