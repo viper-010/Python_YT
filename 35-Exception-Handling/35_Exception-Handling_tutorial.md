@@ -6,7 +6,9 @@ Python has many built-in exceptions that are raised when your program encounters
 When these exceptions occur, the Python interpreter stops the current process and passes it to the calling process until it is handled. If not handled, the program will crash.
 
 ## Python try...except
-try….. except blocks are used in python to handle errors and exceptions. The code in try block runs when there is no error. If the try block catches the error, then the except block is executed. 
+try….. except blocks are used in python to handle errors and exceptions. 
+- The code in try block runs when there is no error.
+- If the try block catches the error, then the except block is executed. 
 
  ## Syntax:
  ```python
