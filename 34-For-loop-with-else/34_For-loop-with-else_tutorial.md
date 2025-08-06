@@ -4,7 +4,7 @@ As you have learned before, the else clause is used along with the if statement.
 Python allows the else keyword to be used with the for and while loops too. The else block appears after the body of the loop. The statements in the else block will be executed after all iterations are completed. The program exits the loop only after the else block is executed.
 
 - The else block in a for loop executes only when the loop has finished iterating through all its items without being interrupted by a break statement.
-- Think of the else block as the "no break" block.
+- Think of the else block as the ****"no break"**** block.
   
 ## Syntax
 ```
