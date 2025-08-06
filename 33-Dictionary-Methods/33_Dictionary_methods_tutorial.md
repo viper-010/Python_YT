@@ -120,6 +120,11 @@ print(info)
 NameError: name 'info' is not defined
 ```
 
+The del keyword simply deletes an item from the dictionary. It does not return any value. Its only job is deletion. If the key doesn't exist, it will raise a KeyError.
+
+****Action****: Deletes an item permanently.
+****Handles Missing Keys****: No. It will raise an error.
+
 ### Example 3
 ```python
 car = {
