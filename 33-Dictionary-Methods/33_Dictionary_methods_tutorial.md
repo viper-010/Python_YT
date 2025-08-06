@@ -119,3 +119,21 @@ print(info)
 ```
 NameError: name 'info' is not defined
 ```
+
+### Example 3
+```python
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+# del just deletes the item. It doesn't return anything.
+del car["year"]
+
+print(f"The dictionary now: {car}")
+```
+#### Output:
+```
+The dictionary now: {'brand': 'Ford', 'model': 'Mustang'}
+```
