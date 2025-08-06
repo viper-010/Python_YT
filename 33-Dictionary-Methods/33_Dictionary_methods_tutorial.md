@@ -49,6 +49,10 @@ print(info)
 ```
 {'name': 'Karan', 'age': 19}
  ```
+The pop() method removes an item with a specified key and returns the value of that item. This is useful when you want to remove an item but also need to use its value immediately. It also allows you to provide a default value if the key might not exist.
+
+- ****Action****: Removes an item and returns its value.
+- ****Handles**** Missing Keys: Yes, you can provide a default value to avoid an error.
 
 ### Example 2:
 ```python
