@@ -52,12 +52,12 @@ If return made the function exit immediately, the file would be left open, which
 ## A Simple Analogy: Locking the Door
 Imagine your function is a set of instructions for leaving your house.
 
-- try: You try to grab your wallet.
+- ****try****: You try to grab your wallet.
 
-- except: What you do if you can't find your wallet.
+- ****except****: What you do if you can't find your wallet.
 
-- return: Your decision to leave the house.
+- ****return****: Your decision to leave the house.
 
-- finally: The one thing you must do before you go: lock the front door.
+- ****finally****: The one thing you must do before you go: lock the front door.
 
 Whether you find your wallet (try) or not (except), you still have to lock the door (finally) on your way out. Python's logic works the same way: it reaches a return statement, prepares the exit value, executes the finally block, and then officially leaves the function.
