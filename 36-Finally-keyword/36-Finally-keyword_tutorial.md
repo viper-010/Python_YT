@@ -41,7 +41,7 @@ Enter an integer: 3.142
 Number entered is not an integer.
 This block is always executed.
 ```
-
+---
 - The finally block is designed by Python to run no matter what. Its entire purpose is to execute essential "cleanup" code, and it wouldn't be very useful if a return statement could just skip it.
 
 ## The Purpose: Guaranteed Cleanup
@@ -49,6 +49,7 @@ Think about actions that must happen before a function is truly finished, regard
 
 If return made the function exit immediately, the file would be left open, which could lead to data corruption or resource leaks. The finally clause was created specifically to solve this problem by guaranteeing that cleanup code always runs.
 
+---
 ## A Simple Analogy: Locking the Door
 Imagine your function is a set of instructions for leaving your house.
 
