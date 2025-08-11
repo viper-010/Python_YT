@@ -61,4 +61,4 @@ Imagine your function is a set of instructions for leaving your house.
 
 - ****finally****: The one thing you must do before you go: lock the front door.
 
-Whether you find your wallet (try) or not (except), you still have to lock the door (finally) on your way out. Python's logic works the same way: it reaches a return statement, prepares the exit value, executes the finally block, and then officially leaves the function.
+Whether you find your wallet (****try****) or not (****except****), you still have to lock the door (****finally****) on your way out. Python's logic works the same way: it reaches a ****return**** statement, prepares the exit value, executes the ****finally**** block, and then officially leaves the function.
