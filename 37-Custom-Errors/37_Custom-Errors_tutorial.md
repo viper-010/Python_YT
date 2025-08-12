@@ -34,10 +34,12 @@ ValueError: Not a valid salary
 ``` SIGHUP ```
 
 ****Error****
+```
 Traceback (most recent call last):
   File "/mnt/sol.py", line 4, in <module>
     raise ValueError("Not a valid salary")
 ValueError: Not a valid salary
+```
 
 - Your Python code crashed by raising a ValueError.
 - The platform's system detected the crash and terminated the process.
