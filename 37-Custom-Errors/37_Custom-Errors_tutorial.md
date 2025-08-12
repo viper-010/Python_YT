@@ -67,3 +67,27 @@ except CustomError:
 ```
 
 This is useful because sometimes we might want to do something when a particular exception is raised. For example, sending an error report to the admin, calling an api, etc.
+
+### Example 1
+```python
+# 1. Define your custom error
+class InvalidAgeError(Exception):
+    "Raised when the input value is less than 18"
+    pass
+
+# 2. Create a function that might raise the error
+def enter_club(age):
+    if age < 18:
+        # Raise the error if the condition is not met
+        raise InvalidAgeError("Must be 18 or older to enter.")
+    else:
+        print("Welcome to the club!")
+
+# 3. Handle the error using a try...except block
+try:
+    enter_club(16)
+except InvalidAgeError as e:
+    print(f"Entry denied: {e}")
+
+```
+
