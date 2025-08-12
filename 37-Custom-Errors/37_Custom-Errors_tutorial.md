@@ -94,3 +94,28 @@ except InvalidAgeError as e:
 Entry denied: Must be 18 or older to enter.
 ```
 
+### Example 2
+```python
+users = {"alice": "Admin", "bob": "User"}
+
+def get_user_role(username):
+    if username not in users:
+        # Raise our specific error
+        raise UserNotFoundError(f"User '{username}' does not exist.")
+    return users[username]
+
+try:
+    # Try to get a user that doesn't exist
+    role = get_user_role("charlie")
+    print(role)
+except UserNotFoundError as e:
+    # This block only runs for our custom error
+    print(f"Error: {e}")
+    print("Please check the username and try again.")
+```
+#### Output:
+```
+Error: User 'charlie' does not exist.
+Please check the username and try again.
+```
+
