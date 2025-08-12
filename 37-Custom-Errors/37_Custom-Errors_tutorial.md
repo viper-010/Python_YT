@@ -14,6 +14,15 @@ if not 2000 < salary < 5000:
 Enter salary amount: 3333
 ```
 #### Output 2 : [ Sample Input -> 1 ]
+```
+Enter salary amount: 1
+1
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 4, in <module>
+ValueError: Not a valid salary
+````
+
 
 
 
