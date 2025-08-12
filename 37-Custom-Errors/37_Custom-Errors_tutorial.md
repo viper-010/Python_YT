@@ -8,11 +8,10 @@ print(salary)
 if not 2000 < salary < 5000:
     raise ValueError("Not a valid salary")
 ```
-#### Output 1
-```
 Sample Input
 3333
-Your Output
+#### Output 1
+```
 Enter salary amount: 3333
 ```
 
