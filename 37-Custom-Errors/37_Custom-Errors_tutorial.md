@@ -25,7 +25,7 @@ ValueError: Not a valid salary
 ````
 
 ****Sample Input****
-1
+```1```
 
 ****Your Output****
 Enter salary amount: 1
