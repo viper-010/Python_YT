@@ -1,10 +1,24 @@
 ## Raising Custom errors 
 In python, we can raise custom errors by using the `raise`  keyword. 
+
+### Example 1
 ```python
 salary = int(input("Enter salary amount: "))
+print(salary)
 if not 2000 < salary < 5000:
     raise ValueError("Not a valid salary")
 ```
+#### Output 1
+```
+Sample Input
+3333
+Your Output
+Enter salary amount: 3333
+```
+
+
+#### Output 2
+
 
 In the previous tutorial, we learned about different built-in exceptions in Python and why it is important to handle exceptions. However, sometimes we may need to create our own custom exceptions that serve our purpose.
 
