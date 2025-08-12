@@ -88,6 +88,9 @@ try:
     enter_club(16)
 except InvalidAgeError as e:
     print(f"Entry denied: {e}")
-
+```
+#### Output:
+```
+Entry denied: Must be 18 or older to enter.
 ```
 
