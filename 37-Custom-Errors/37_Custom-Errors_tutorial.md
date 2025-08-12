@@ -9,11 +9,12 @@ if not 2000 < salary < 5000:
     raise ValueError("Not a valid salary")
 ```
 
-#### Output 1 : [ Sample Input -> 3333 ]
+#### Output 1: 
 ```
 Enter salary amount: 3333
+3333
 ```
-#### Output 2 : [ Sample Input -> 1 ]
+#### Output 2:
 ```
 Enter salary amount: 1
 1
