@@ -24,6 +24,25 @@ Traceback (most recent call last):
 ValueError: Not a valid salary
 ````
 
+****Sample Input****
+1
+
+****Your Output****
+Enter salary amount: 1
+
+****Runtime Error****
+SIGHUP
+
+****Error****
+Traceback (most recent call last):
+  File "/mnt/sol.py", line 4, in <module>
+    raise ValueError("Not a valid salary")
+ValueError: Not a valid salary
+
+- Your Python code crashed by raising a ValueError.
+- The platform's system detected the crash and terminated the process.
+- SIGHUP is the signal that was reported as part of that termination process.
+
 In the previous tutorial, we learned about different built-in exceptions in Python and why it is important to handle exceptions. However, sometimes we may need to create our own custom exceptions that serve our purpose.
 
 ----
