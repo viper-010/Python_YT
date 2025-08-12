@@ -32,7 +32,7 @@ ValueError: Not a valid salary
 
 ****Runtime Error****
 ``` SIGHUP ```
-- SIGHUP stands for Signal Hang Up. It's not a Python error but rather a signal from the underlying operating system (like Linux).
+- SIGHUP stands for ****Signal Hang Up****. It's not a Python error but rather a signal from the underlying operating system (like Linux).
 
 ****Error****
 ```
