@@ -13,9 +13,8 @@ if not 2000 < salary < 5000:
 ```
 Enter salary amount: 3333
 ```
+#### Output 2 : [ Sample Input -> 1 ]
 
-
-#### Output 2
 
 
 In the previous tutorial, we learned about different built-in exceptions in Python and why it is important to handle exceptions. However, sometimes we may need to create our own custom exceptions that serve our purpose.
