@@ -28,10 +28,10 @@ ValueError: Not a valid salary
 ``` 1 ```
 
 ****Your Output****
-Enter salary amount: 1
+``` Enter salary amount: 1 ```
 
 ****Runtime Error****
-SIGHUP
+``` SIGHUP ```
 
 ****Error****
 Traceback (most recent call last):
