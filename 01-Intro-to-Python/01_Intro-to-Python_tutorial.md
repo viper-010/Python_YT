@@ -79,5 +79,5 @@ How about `23453453 × 56456`?
 
 ---
 
-**REPL** : read–eval–print loop  
+**REPL** : read–eval–print–loop  
 
