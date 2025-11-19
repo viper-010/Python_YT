@@ -124,6 +124,15 @@ The syntax of a print statement looks something like this:
 ```python
 print(object(s), sep=separator, end=end, file=file, flush=flush)
 ```
+#### Example
+``` python
+print("Rona", "Python", sep=" | ", end=" *** ", flush=True)
+```
+
+Output:
+```markup
+Rona | Python ***
+```
 
 ## Other Parameters of Print Statement 
 
