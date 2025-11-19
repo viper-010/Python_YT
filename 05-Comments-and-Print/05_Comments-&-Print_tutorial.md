@@ -108,12 +108,12 @@ p is greater than 5.
 #### Example
 ```python
 print("This doesnt "execute")
-print("This will \" execute")
+print("This will \"execute\"")
 ```
 
 Output: 
 ```
-This will "execute
+This will "execute"
 ```
 
 --- 
