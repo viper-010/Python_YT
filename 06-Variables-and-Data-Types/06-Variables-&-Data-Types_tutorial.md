@@ -99,4 +99,6 @@ Output:
 ```
 ---
 * Strings are always shown with quotes when printed as part of a tuple/list/dict/set \
-** Python uses **repr()** - shows strings with quotes
+Python uses **repr()** - shows strings with quotes\
+* Printing a string alone uses **str()**, which removes quotes
+
