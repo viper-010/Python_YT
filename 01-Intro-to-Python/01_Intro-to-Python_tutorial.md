@@ -47,7 +47,7 @@ How about `23453453 × 56456`?
 
 - It provides large library support. Popular libraries include:
   - NumPy (numerical computations)
-  - TensorFlow (machine learning)
+  - TensorFlow (deep learning)
   - Selenium (web automation/testing)
   - OpenCV (computer vision)
   - Matplotlib, Pandas, Flask, PyTorch, etc.
