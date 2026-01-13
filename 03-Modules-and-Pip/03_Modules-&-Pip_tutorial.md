@@ -1,5 +1,5 @@
 # 03 - Modules and pip in Python!
-
+---
 A **module** is like a code library that allows you to borrow code written by someone else in your Python program. There are two types of modules in Python:
 
 1. **Built-in Modules**  
