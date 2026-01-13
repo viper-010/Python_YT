@@ -10,7 +10,5 @@ Write a program to print a poem in Python. Choose the poem of your choice and pu
 
 ```python
 print("---Your poem here---")
----
-
-
+```
 ---
