@@ -1,5 +1,5 @@
 # 05 - Comments, Escape sequence & Print in Python
-
+---
 Today we will talk about Comments, Escape Sequences and little bit more about print statement in Python.
 We will also throw some light on Escape Sequences
 
@@ -7,6 +7,7 @@ We will also throw some light on Escape Sequences
 ## Python Comments
 A comment is a part of the coding file that the programmer does not want to execute, rather the programmer uses it to either explain a block of code or to avoid the execution of a specific part of code while testing.
 
+---
 
 ## Single-Line Comments:
 
